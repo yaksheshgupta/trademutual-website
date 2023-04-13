@@ -122,7 +122,7 @@ const FAQAccordion = () => {
       {FAQs.map((faq, index) => (
         <div
           key={index}
-          className="p-px my-8 bg-gradient-to-r from-white via-white to-transparent rounded-tl-lg rounded-bl-[35px]"
+          className="p-px mb-8 bg-gradient-to-r from-white via-white to-transparent rounded-tl-lg rounded-bl-[35px]"
         >
           <div className="bg-[#1d1b29] p-2 sm:p-6 rounded-tl-lg rounded-bl-[35px]">
             <AccordionItem

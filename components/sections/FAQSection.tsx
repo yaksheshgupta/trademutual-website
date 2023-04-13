@@ -1,3 +1,4 @@
+import { LINKS } from "@/utils/config";
 import Image from "next/image";
 import React from "react";
 import bgImage from "../../public/images/FAQBg.svg";
@@ -17,6 +18,14 @@ const FAQSection = () => {
         <div className="font-semibold lg:font-bold text-[30px] lg:text-[36px] text-white ml-6 lg:ml-0">
           <span className="block ">Frequently</span>
           <span>Asked Questions</span>
+          <div className="mt-2 mb-6 lg:mt-6">
+            <a
+              href={LINKS.LEARN_MORE}
+              className="py-3 px-7 text-base font-normal lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
+            >
+              Learn more
+            </a>
+          </div>
         </div>
         <Image
           src={bgImage}
