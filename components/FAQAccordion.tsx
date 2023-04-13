@@ -15,19 +15,74 @@ interface IProps extends AccordionItemProps {
 const FAQs = [
   {
     qs: "What is unique about Trade Mutual?",
-    ans: "TradeMutual value proposition is unique and currently there is no crypto project with a similar business model. Platforms such as DAO ventures, raise money from retail investors and invest in early-stage crypto startups. Such platforms are not our competitors. Our business model is to pool funds from retail investors and use that fund to trade cryptocurrencies to generate profits. Given our focus on transparency, fund safety, trustworthiness, and long-term vision we are confident that we will win the interest of retail investors.",
+    ans: (
+      <span>
+        TradeMutual value proposition is unique and currently there is no crypto
+        project with a similar business model. Platforms such as DAO ventures,
+        raise money from retail investors and invest in early-stage crypto
+        startups. Such platforms are not our competitors. Our business model is
+        to pool funds from retail investors and use that fund to trade
+        cryptocurrencies to generate profits. Given our focus on transparency,
+        fund safety, trustworthiness, and long-term vision we are confident that
+        we will win the interest of retail investors.
+      </span>
+    ),
   },
   {
-    qs: "What is unique about Trade Mutual?",
-    ans: "TradeMutual value proposition is unique and currently there is no crypto project with a similar business model. Platforms such as DAO ventures, raise money from retail investors and invest in early-stage crypto startups. Such platforms are not our competitors. Our business model is to pool funds from retail investors and use that fund to trade cryptocurrencies to generate profits. Given our focus on transparency, fund safety, trustworthiness, and long-term vision we are confident that we will win the interest of retail investors.",
+    qs: "How will $TRAM holders benefit?",
+    ans: (
+      <ol className="list-decimal">
+        <li>Receive 20% of trading profits in stablecoin</li>
+        <li>Earn through $TRAM price appreciation</li>
+        <li>DEX liquidity providers earn rewards in $TRAM tokens</li>
+        <li>
+          Can participate in community programs and earn rewards in stablecoin
+        </li>
+        <li>
+          Those holding a minimum of 108K $TRAM get access to the{" "}
+          <a
+            href="https://docs.trademutual.org/tokenomics/investor-club"
+            className="text-white underline"
+          >
+            investor club
+          </a>
+        </li>
+        <li>Can participate in DAO governance voting</li>
+      </ol>
+    ),
   },
   {
-    qs: "What is unique about Trade Mutual?",
-    ans: "TradeMutual value proposition is unique and currently there is no crypto project with a similar business model. Platforms such as DAO ventures, raise money from retail investors and invest in early-stage crypto startups. Such platforms are not our competitors. Our business model is to pool funds from retail investors and use that fund to trade cryptocurrencies to generate profits. Given our focus on transparency, fund safety, trustworthiness, and long-term vision we are confident that we will win the interest of retail investors.",
+    qs: "How will the people investing in the trade-pool benefit?",
+    ans: (
+      <ol className="list-decimal">
+        <li>Receive 70% of trading profits in the stablecoin</li>
+        <li>
+          Benefit from crypto trading without spending any effort in trading
+          themselves
+        </li>
+        <li>
+          Those depositing a minimum of $5000 in trade-pool get access to the{" "}
+          <a
+            href="https://docs.trademutual.org/tokenomics/investor-club"
+            className="text-white underline"
+          >
+            investor club
+          </a>
+        </li>
+      </ol>
+    ),
   },
   {
-    qs: "What is unique about Trade Mutual?",
-    ans: "TradeMutual value proposition is unique and currently there is no crypto project with a similar business model. Platforms such as DAO ventures, raise money from retail investors and invest in early-stage crypto startups. Such platforms are not our competitors. Our business model is to pool funds from retail investors and use that fund to trade cryptocurrencies to generate profits. Given our focus on transparency, fund safety, trustworthiness, and long-term vision we are confident that we will win the interest of retail investors.",
+    qs: "What is the treasury?",
+    ans: (
+      <span>
+        Treasury is a project wallet where 10% share of the profits is
+        deposited. Treasury will pay for the operating expenses such as
+        staffing, platform operation, etc. During the initial periods the
+        treasury will be empty and such expenses will be paid from the funds
+        raised in the IDO
+      </span>
+    ),
   },
 ];
 
@@ -38,9 +93,9 @@ const AccordionItem = ({ headerContent, ...rest }: IProps) => (
       <div className="flex items-center justify-start w-full p-4 space-x-4">
         <div className="relative w-6 aspect-square">
           {state.isEnter ? (
-            <Image src={minusIcon} alt="accordion icon" />
+            <Image unoptimized src={minusIcon} alt="accordion icon" />
           ) : (
-            <Image src={plusIcon} alt="accordion icon" />
+            <Image unoptimized src={plusIcon} alt="accordion icon" />
           )}
         </div>
         <div className="justify-start flex-1">
@@ -61,7 +116,7 @@ const FAQAccordion = () => {
     <Accordion
       allowMultiple
       transition
-      className="rounded-b-xl sm:w-[400px] xl:w-[600px] 2xl:w-[450px] z-10"
+      className="rounded-b-xl xl:w-[600px] 2xl:w-[650px] z-10"
     >
       {/** Accordion Filter Item Starts */}
       {FAQs.map((faq, index) => (

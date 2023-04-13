@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import logo from "../public/images/TMLogo.svg";
 import Drawer from "./Drawer";
+import { LINKS } from "@/utils/config";
 const HamburgerIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -38,18 +39,18 @@ const CrossIcon = () => (
 const Appbar = () => {
   const [isAppBarOpen, setAppBarOpen] = useState(false);
   return (
-    <div className="absolute z-10 top-0 flex w-screen py-6 max-w-[1440px] left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
-      <Image src={logo} alt="TM Logo" height={33} width={180} />
-      <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 sm:flex space-x-7">
-        <span>Tokenomics</span>
-        <span>How it works</span>
-        <span>Lite Paper</span>
-        <span>Roadmap</span>
+    <div className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
+      <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
+      <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
+        <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href={LINKS.LITE_PAPER}>Lite Paper</a>
       </div>
-      <button className="hidden sm:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
-        Join Whitelist
+      <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
+        <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>
       </button>
-      <div className="ml-auto mr-6 sm:hidden">
+      <div className="ml-auto mr-6 lg:hidden">
         <div onClick={() => setAppBarOpen(true)}>
           <HamburgerIcon />
         </div>
@@ -59,25 +60,33 @@ const Appbar = () => {
         containerId="body-container"
         onClose={() => setAppBarOpen(false)}
         opened={isAppBarOpen}
-        customStyle="pt-[10vh] px-6"
+        customStyle="pt-[10vh] flex flex-col"
       >
-        <div className="flex">
-          <Image src={logo} alt="TM Logo" height={33} width={180} />
+        <div className="flex px-6">
+          <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
           <div className="ml-auto">
             <div onClick={() => setAppBarOpen(false)}>
               <CrossIcon />
             </div>
           </div>
         </div>
-        <div className="flex flex-col text-xl text-white space-y-7 mt-[10vh]">
-          <a>Tokeonomics</a>
-          <a>How it work</a>
-          <a>FAQ</a>
-          <a>Litepaper</a>
-
-          <div className="sm:hidden mb-[60px] w-full h-[40vh] absolute bottom-0 left-0 bg-gradient-to-r from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B]">
-            <div className="w-full h-full bg-gradient-to-b from-[#1d1b29] to-transparent"></div>
-          </div>
+        <div className="flex flex-col text-xl text-white space-y-7 mt-[8vh] p-6">
+          <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
+          <a href="#how-it-works" onClick={() => setAppBarOpen(false)}>
+            How it works
+          </a>
+          <a href="#faq" onClick={() => setAppBarOpen(false)}>
+            FAQ
+          </a>
+          <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
+            Lite Paper
+          </a>
+          <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
+            <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>
+          </button>
+        </div>
+        <div className="w-full flex-1   bg-gradient-to-r from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B]">
+          <div className="w-full h-full bg-gradient-to-b from-[#1d1b29] to-transparent"></div>
         </div>
       </Drawer>
     </div>

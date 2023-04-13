@@ -14,7 +14,7 @@ const TradeMutualUtilityItem = ({
   return (
     <div
       className={twclsx(
-        " max-w-[395px] rounded-md bg-gradient-to-l from-white via-[rgba(255, 255, 255, 0.5)] to-transparent p-px",
+        " lg:max-w-[395px] max-w-full rounded-md bg-gradient-to-l from-white via-[rgba(255, 255, 255, 0.5)] to-transparent p-px",
         className
       )}
     >
@@ -26,6 +26,7 @@ const TradeMutualUtilityItem = ({
       >
         <Image
           src={check}
+          unoptimized
           width={24}
           height={24}
           alt="check icon"

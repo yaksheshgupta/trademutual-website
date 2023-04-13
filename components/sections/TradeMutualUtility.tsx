@@ -1,25 +1,31 @@
+import { LINKS } from "@/utils/config";
 import Image from "next/image";
 import utilityLogo from "../../public/images/utilityLogo.svg";
 import GradientBox from "../GradientBox";
 import TradeMutualUtilityItem from "../TradeMutualUtilityItem";
 const TradeMutualUtilitySection = () => {
   return (
-    <section className="bg-[#1D1B29] w-screen sm:scale-75 2xl:scale-100 mb-[10vh]">
+    <section className="bg-[#1D1B29] w-screen xl:mb-[10vh]">
       <GradientBox />
-      <div className="w-full max-w-[1440px] mx-auto sm:grid sm:place-items-center px-6 sm:px-0 mt-2">
-        <h1 className="text-[30px] sm:text-[60px] font-semibold  text-white">
+      <div className="w-full max-w-[1440px] mx-auto lg:grid lg:place-items-center px-6 lg:px-0 mt-2">
+        <h1 className="text-[30px] lg:text-[60px] font-semibold  text-white">
           Trade Mutual Token Utility
         </h1>
-        <div className="max-w-[618px] sm:text-center">
-          <span className="text-sm font-light text-white sm:text-lg text-opacity-60">
+        <div className="max-w-[618px] lg:text-center">
+          <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
             $TRAM is the ERC20 utility token of Trade Mutual with a total supply
             of 12 million tokens. It will have following utilities.
           </span>
         </div>
-        <button className="py-3 px-7 sm:px-10 sm:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl sm:text-[22px] text-white mt-6 sm:mt-16">
-          Learn more
-        </button>
-        <div className="relative hidden sm:block">
+        <div className="mt-6 lg:mt-16">
+          <a
+            href={LINKS.LEARN_MORE}
+            className="py-3 px-7 lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
+          >
+            Learn more
+          </a>
+        </div>
+        <div className="relative hidden lg:block lg:scale-[0.7] 2xl:scale-100">
           <Image
             src={utilityLogo}
             width={721}
@@ -66,7 +72,7 @@ const TradeMutualUtilitySection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mt-8 space-y-4 sm:hidden">
+        <div className="flex flex-col w-full mt-8 space-y-4 lg:hidden">
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Profit Sharing"

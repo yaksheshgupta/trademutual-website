@@ -54,7 +54,7 @@ function Drawer({
         {/** Drawer container starts here */}
         <div
           className={twclsx(
-            "max-w-screen fixed inset-y-0 z-[999] w-screen overflow-y-auto bg-[#1d1b29] duration-300 -translate-y-full sm:w-[460px]",
+            "max-w-screen fixed inset-y-0 z-[999] w-screen overflow-y-auto bg-[#1d1b29] duration-300 -translate-y-full",
             isFullScreen && "w-full",
 
             opened && "translate-y-0",

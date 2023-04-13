@@ -27,17 +27,10 @@ const socials = [
 ];
 const FixedScrollBar = () => {
   return (
-    <div className="fixed z-30 items-center hidden h-screen sm:flex left-10">
+    <div className="fixed z-30 items-center hidden h-screen lg:flex left-10">
       <div className="flex flex-col space-y-4">
         {socials.map((social, index) => {
-          return (
-            <Image
-              key={index}
-              src={social.icon}
-              alt={social.type}
-              className="backdrop-filter backdrop-blur-lg"
-            />
-          );
+          return <Image key={index} src={social.icon} alt={social.type} />;
         })}
       </div>
     </div>
