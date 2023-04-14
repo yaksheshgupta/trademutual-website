@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "../public/images/TMLogo.svg";
 import Drawer from "./Drawer";
 import { LINKS } from "@/utils/config";
+import Link from "next/link";
 const HamburgerIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +41,13 @@ const Appbar = () => {
   const [isAppBarOpen, setAppBarOpen] = useState(false);
   return (
     <div className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
-      <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
+      <Link href="/"><Image unoptimized src={logo} alt="TM Logo" height={33} width={180} /></Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
         <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
         <a href="#how-it-works">How it works</a>
         <a href="#faq">FAQ</a>
         <a href={LINKS.LITE_PAPER}>Lite Paper</a>
+        <a href="/airdrop">Airdrop</a>
       </div>
       <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
         <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>
@@ -80,6 +82,9 @@ const Appbar = () => {
           </a>
           <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Lite Paper
+          </a>
+          <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
+            Airdrop
           </a>
           <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
             <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>

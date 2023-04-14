@@ -6,8 +6,8 @@ import Image from "next/image";
 const socials = [
   {
     icon: Icon1,
-    type: "unknown",
-    link: "",
+    type: "medium",
+    link: "https://medium.com/@trademutualorg",
   },
   {
     icon: Icon2,
@@ -17,12 +17,12 @@ const socials = [
   {
     icon: Icon3,
     type: "twitter",
-    link: "",
+    link: "https://twitter.com/TradeMutual",
   },
   {
     icon: Icon4,
     type: "discord",
-    link: "",
+    link: "https://discord.gg/vEusPkXx",
   },
 ];
 const FixedScrollBar = () => {

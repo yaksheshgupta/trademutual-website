@@ -14,7 +14,7 @@ const TradeMutualUtilitySection = () => {
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
             $TRAM is the ERC20 utility token of Trade Mutual with a total supply
-            of 12 million tokens. It will have following utilities.
+            of 108 million tokens. It will have following utilities.
           </span>
         </div>
         <div className="mt-6 lg:mt-16">
