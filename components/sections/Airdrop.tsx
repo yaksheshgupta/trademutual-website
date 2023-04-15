@@ -40,18 +40,18 @@ const Airdrop = () => {
                 Meri Nazar Se Tum Ko Dekhu To
                 Ho Madhubala Se Bhi Aala Dikhti Ho
                 Meri Nazar Se Tum Ko Dekhu To
-                <br/>
+                <br />
                 Sab Kahe Are-Are, Are-Are
                 Pagla Gaya Hai Tu
                 Samajh Se Hai Pare, Pare, Pare
                 Ye Tera Jadoo-Jadoo
-                <br/>
+                <br />
 
                 Zohra Jabee Se Bhi Hasee Lagti Ho
                 Meri Nazar Se Tum Ko Dekhu To
                 Ho Madhubala Se Bhi Aala Lagti Ho
                 Meri Nazar Se Tum Ko Dekhu To
-                <br/>
+                <br />
 
                 O Mattha Teku Ya Main Chal Doon Nange Paon Kahi
                 Aisi Kismat Har Kisi Ke Hisse Aati Nahi
@@ -60,6 +60,10 @@ const Airdrop = () => {
 
 
               </span>
+              <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit mt-10">
+                <a href="/airdrop">Apply for Airdrop</a>
+                {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
+              </button>
             </div>
           </div>
           {/* <div className="flex flex-col justify-center lg:scale-[0.8] xl:scale-100 lg:flex-row ">
