@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <link rel="shortcut icon" href="/TMIcon.webp" />
       <body id="body" className="bg-[#1D1B29]">
         <Main />
         <NextScript />
