@@ -46,11 +46,11 @@ const Appbar = () => {
         <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
         <a href="#how-it-works">How it works</a>
         <a href="#faq">FAQ</a>
-        <a href={LINKS.LITE_PAPER}>Lite Paper</a>
-        <a href="/airdrop">Airdrop</a>
+        <a href={LINKS.LITE_PAPER}>Litepaper</a>
+        {/* <a href="/airdrop">Airdrop</a> */}
       </div>
       <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
-        <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>
+        <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a>
       </button>
       <div className="ml-auto mr-6 lg:hidden">
         <div onClick={() => setAppBarOpen(true)}>
@@ -81,13 +81,13 @@ const Appbar = () => {
             FAQ
           </a>
           <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
-            Lite Paper
+            Litepaper
           </a>
-          <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
+          {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Airdrop
-          </a>
+          </a> */}
           <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
-            <a href={LINKS.JOIN_WAITLIST}>Join Whitelist</a>
+            <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a>
           </button>
         </div>
         <div className="w-full flex-1   bg-gradient-to-r from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B]">
