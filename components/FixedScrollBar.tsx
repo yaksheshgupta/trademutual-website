@@ -23,7 +23,7 @@ const socials = [
   {
     icon: Icon4,
     type: "discord",
-    link: "https://discord.gg/vEusPkXx",
+    link: "https://discord.com/invite/vEusPkXx",
   },
 ];
 const FixedScrollBar = () => {

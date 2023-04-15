@@ -9,11 +9,12 @@ import Icon2 from "../public/images/Icon2.svg";
 import Icon3 from "../public/images/Icon3.svg";
 import Icon4 from "../public/images/Icon4.svg";
 import { LINKS } from "@/utils/config";
+import Link from "next/link";
 const socials = [
   {
     icon: Icon1,
-    type: "unknown",
-    link: "",
+    type: "medium",
+    link: "https://medium.com/@trademutualorg",
   },
   {
     icon: Icon2,
@@ -23,12 +24,12 @@ const socials = [
   {
     icon: Icon3,
     type: "twitter",
-    link: "",
+    link: "https://twitter.com/TradeMutual",
   },
   {
     icon: Icon4,
     type: "discord",
-    link: "",
+    link: "https://discord.com/invite/vEusPkXx",
   },
 ];
 const Footer = () => {
@@ -73,14 +74,14 @@ const Footer = () => {
           </div>
           <div className="flex mt-6 space-x-4">
             {socials.map((social, index) => {
-              return <Image key={index} src={social.icon} alt={social.type} />;
-            })}
+          return <Link href={social.link} target="_blank" key={index}><Image key={index} src={social.icon} alt={social.type} /></Link>;
+        })}
           </div>
           <div className="flex mt-12 space-x-5 text-xs font-normal text-white sm:text-sm sm:space-x-7">
-            <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
+            <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a>
             <a href="#how-it-works">How it works</a>
-            <a href={LINKS.LITE_PAPER}>Lite Paper</a>
-            <a href={LINKS.ROADMAP}>Roadmap</a>
+            <a href={LINKS.LITE_PAPER} target="_blank">Litepaper</a>
+            <a href={LINKS.ROADMAP} target="_blank">Roadmap</a>
           </div>
           <span className="mt-8 text-xs text-white text-opacity-50 sm:text-sm">
             © TradeMutual 2023 All rights reserved.
