@@ -1,6 +1,6 @@
 import { LINKS } from "@/utils/config";
 import Image from "next/image";
-
+import Link from "next/link";
 import bgImage from "../../public/images/HeroBackground.webp";
 import HeroSectionLabelItem from "../HeroSectionLabeltem";
 const HeroSection = () => {
@@ -36,9 +36,11 @@ const HeroSection = () => {
                   future of finance with trademutual
                 </span>
               </div>
-              <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
-                <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a>
-              </button>
+              <Link href="/airdrop">
+                <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
+                  Join Airdrop
+                </button>
+              </Link>
             </div>
           </div>
         </div>

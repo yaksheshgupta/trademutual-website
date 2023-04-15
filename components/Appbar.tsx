@@ -43,16 +43,18 @@ const Appbar = () => {
     <div className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
       <Link href="/"><Image unoptimized src={logo} alt="TM Logo" height={33} width={180} /></Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
-        <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
+        <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a>
         <a href="#how-it-works">How it works</a>
         <a href="#faq">FAQ</a>
-        <a href={LINKS.LITE_PAPER}>Litepaper</a>
+        <a href={LINKS.LITE_PAPER} target="_blank">Litepaper</a>
         {/* <a href="/airdrop">Airdrop</a> */}
       </div>
-      <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
-        <Link href="/airdrop">Join Airdrop</Link>
-        {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
-      </button>
+      <Link href="/airdrop">
+        <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
+          Join Airdrop
+          {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
+        </button>
+      </Link>
       <div className="ml-auto mr-6 lg:hidden">
         <div onClick={() => setAppBarOpen(true)}>
           <HamburgerIcon />
@@ -74,23 +76,25 @@ const Appbar = () => {
           </div>
         </div>
         <div className="flex flex-col text-xl text-white space-y-7 mt-[8vh] p-6">
-          <a href={LINKS.TOKEONOMICS}>Tokenomics</a>
+          <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a>
           <a href="#how-it-works" onClick={() => setAppBarOpen(false)}>
             How it works
           </a>
           <a href="#faq" onClick={() => setAppBarOpen(false)}>
             FAQ
           </a>
-          <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
+          <a href={LINKS.LITE_PAPER} target="_blank" onClick={() => setAppBarOpen(false)}>
             Litepaper
           </a>
           {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Airdrop
           </a> */}
-          <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
-            <Link href="/airdrop">Join Airdrop</Link>
-            {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
-          </button>
+          <Link href="/airdrop">
+            <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
+              Join Airdrop
+              {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
+            </button>
+          </Link>
         </div>
         <div className="w-full flex-1   bg-gradient-to-r from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B]">
           <div className="w-full h-full bg-gradient-to-b from-[#1d1b29] to-transparent"></div>

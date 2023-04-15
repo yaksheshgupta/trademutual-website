@@ -5,5 +5,5 @@ export const LINKS = {
   LEARN_MORE:
     "https://docs.trademutual.org/operations/frequenty-asked-question",
   ROADMAP: "https://docs.trademutual.org/overview/roadmap",
-  TOKEONOMICS: "https://docs.trademutual.org/",
+  TOKEONOMICS: "https://docs.trademutual.org/tokenomics/tram-token",
 };
