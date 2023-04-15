@@ -4,6 +4,7 @@ import depositStableCoinIcon from "../../public/images/depositStableCoinIcon.svg
 import earnProfitIcon from "../../public/images/earnProfitIcon.svg";
 import howItWorksSVG from "../../public/images/Frame684912.svg";
 import GradientBox from "../GradientBox";
+import Link from "next/link";
 const Airdrop = () => {
   const howItWorks = [
     {
@@ -61,7 +62,7 @@ const Airdrop = () => {
 
               </span>
               <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit mt-10">
-                <a href="/airdrop">Apply for Airdrop</a>
+                <Link href="/airdrop">Apply for Airdrop</Link>
                 {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
               </button>
             </div>
