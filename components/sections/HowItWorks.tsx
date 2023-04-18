@@ -22,14 +22,14 @@ const HowItWorks = () => {
   return (
     <section
       id="how-it-works"
-      className="bg-[#1D1B29] w-screen sm:grid md:place-items-center mb-[10vh] "
+      className="bg-[#1D1B29] w-screen sm:grid md:place-items-center mb-[10vh] scroll-mt-16 "
     >
       <GradientBox />
       <div className="w-full mx-auto max-w-[1440px] relative">
         {/* <div className="absolute flex-row-reverse hidden w-full md:flex">
           <Image src={howItWorksSVG} height={710} alt="" />
         </div> */}
-        <div className="flex flex-col items-center w-full h-full sm:justify-center" >
+        <div className="flex flex-col items-center w-full h-full sm:justify-center">
           <div className="flex flex-col items-center justify-center w-full px-5 lg:pl-[150px] lg:items-start 2xl:pl-0">
             <h1 className="text-[30px] sm:text-[50px] 2xl:text-[60px] text-white font-semibold">
               How it works

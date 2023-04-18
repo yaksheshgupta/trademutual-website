@@ -74,14 +74,26 @@ const Footer = () => {
           </div>
           <div className="flex mt-6 space-x-4">
             {socials.map((social, index) => {
-          return <Link href={social.link} target="_blank" key={index}><Image key={index} src={social.icon} alt={social.type} /></Link>;
-        })}
+              return (
+                <Link href={social.link} target="_blank" key={index}>
+                  <Image key={index} src={social.icon} alt={social.type} />
+                </Link>
+              );
+            })}
           </div>
           <div className="flex mt-12 space-x-5 text-xs font-normal text-white sm:text-sm sm:space-x-7">
-            <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a>
-            <a href="#how-it-works">How it works</a>
-            <a href={LINKS.LITE_PAPER} target="_blank">Litepaper</a>
-            <a href={LINKS.ROADMAP} target="_blank">Roadmap</a>
+            <Link href="/#tokeonomics" scroll={false}>
+              Tokenomics
+            </Link>
+            <Link href="/#how-it-works" scroll={false}>
+              How it works
+            </Link>
+            <a href={LINKS.LITE_PAPER} target="_blank">
+              Litepaper
+            </a>
+            <a href={LINKS.ROADMAP} target="_blank">
+              Roadmap
+            </a>
           </div>
           <span className="mt-8 text-xs text-white text-opacity-50 sm:text-sm">
             © TradeMutual 2023 All rights reserved.
