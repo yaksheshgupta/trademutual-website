@@ -19,7 +19,7 @@ const socials = [
   {
     icon: Icon2,
     type: "telegram",
-    link: "",
+    link: "https://t.me/TradeMutual_Community",
   },
   {
     icon: Icon3,

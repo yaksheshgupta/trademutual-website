@@ -5,7 +5,7 @@ import GradientBox from "../GradientBox";
 import TradeMutualUtilityItem from "../TradeMutualUtilityItem";
 const TradeMutualUtilitySection = () => {
   return (
-    <section className="bg-[#1D1B29] w-screen xl:mb-[10vh]">
+    <section className="bg-[#1D1B29] w-screen xl:mb-[10vh]" id="tokenomics">
       <GradientBox />
       <div className="w-full max-w-[1440px] mx-auto lg:grid lg:place-items-center px-6 lg:px-0 mt-2">
         <h1 className="text-[30px] lg:text-[60px] font-semibold  text-white">
