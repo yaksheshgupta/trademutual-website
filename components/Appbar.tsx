@@ -45,11 +45,11 @@ const Appbar = () => {
         <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
       </Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
-        <Link href="/#tokeonomics" scroll={false}>
-          Tokenomics
-        </Link>
         <Link href="/#how-it-works" scroll={false}>
           How it works
+        </Link>
+        <Link href="/#tokeonomics" scroll={false}>
+          Tokenomics
         </Link>
         <Link href="/#faq" scroll={false}>
           FAQ
@@ -86,6 +86,13 @@ const Appbar = () => {
           </div>
         </div>
         <div className="flex flex-col text-xl text-white space-y-7 mt-[8vh] p-6">
+        <Link
+            href="/#how-it-works"
+            scroll={false}
+            onClick={() => setAppBarOpen(false)}
+          >
+            How it works
+          </Link>
           <Link
             href="/#tokeonomics"
             scroll={false}
@@ -93,13 +100,7 @@ const Appbar = () => {
           >
             Tokenomics
           </Link>
-          <Link
-            href="/#how-it-works"
-            scroll={false}
-            onClick={() => setAppBarOpen(false)}
-          >
-            How it works
-          </Link>
+
           <Link href="#faq" scroll={false} onClick={() => setAppBarOpen(false)}>
             FAQ
           </Link>
