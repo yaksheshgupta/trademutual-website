@@ -9,7 +9,7 @@ import Footer from "../Footer";
 import GradientBox from "../GradientBox";
 const FAQSection = () => {
   return (
-    <div
+    <section
       id="faq"
       className="w-screen max-w-[1440px] mx-auto pt-6 lg:pt-[80px] bg-[#1D1B29] flex flex-col lg:flex-row overflow-hidden"
     >
@@ -49,7 +49,7 @@ const FAQSection = () => {
       <div className="z-10 px-6 lg:px-0 lg:-translate-x-1/4">
         <FAQAccordion />
       </div>
-    </div>
+    </section>
   );
 };
 

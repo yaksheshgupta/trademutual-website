@@ -40,14 +40,23 @@ const CrossIcon = () => (
 const Appbar = () => {
   const [isAppBarOpen, setAppBarOpen] = useState(false);
   return (
-    <div className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
-      <Link href="/"><Image unoptimized src={logo} alt="TM Logo" height={33} width={180} /></Link>
+    <nav className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
+      <Link href="/">
+        <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
+      </Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
-        <a href="#tokenomics">Tokenomics</a>
-        {/* <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a> */}
-        <a href="#how-it-works">How it works</a>
-        <a href="#faq">FAQ</a>
-        <a href={LINKS.LITE_PAPER} target="_blank">Litepaper</a>
+        <Link href="/#tokeonomics" scroll={false}>
+          Tokenomics
+        </Link>
+        <Link href="/#how-it-works" scroll={false}>
+          How it works
+        </Link>
+        <Link href="/#faq" scroll={false}>
+          FAQ
+        </Link>
+        <a href={LINKS.LITE_PAPER} target="_blank">
+          Litepaper
+        </a>
         {/* <a href="/airdrop">Airdrop</a> */}
       </div>
       <Link href="/airdrop">
@@ -77,15 +86,28 @@ const Appbar = () => {
           </div>
         </div>
         <div className="flex flex-col text-xl text-white space-y-7 mt-[8vh] p-6">
-          {/* <a href={LINKS.TOKEONOMICS} target="_blank">Tokenomics</a> */}
-          <a href="#tokenomics">Tokenomics</a>
-          <a href="#how-it-works" onClick={() => setAppBarOpen(false)}>
+          <Link
+            href="/#tokeonomics"
+            scroll={false}
+            onClick={() => setAppBarOpen(false)}
+          >
+            Tokenomics
+          </Link>
+          <Link
+            href="/#how-it-works"
+            scroll={false}
+            onClick={() => setAppBarOpen(false)}
+          >
             How it works
-          </a>
-          <a href="#faq" onClick={() => setAppBarOpen(false)}>
+          </Link>
+          <Link href="#faq" scroll={false} onClick={() => setAppBarOpen(false)}>
             FAQ
-          </a>
-          <a href={LINKS.LITE_PAPER} target="_blank" onClick={() => setAppBarOpen(false)}>
+          </Link>
+          <a
+            href={LINKS.LITE_PAPER}
+            target="_blank"
+            onClick={() => setAppBarOpen(false)}
+          >
             Litepaper
           </a>
           {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
@@ -102,7 +124,7 @@ const Appbar = () => {
           <div className="w-full h-full bg-gradient-to-b from-[#1d1b29] to-transparent"></div>
         </div>
       </Drawer>
-    </div>
+    </nav>
   );
 };
 

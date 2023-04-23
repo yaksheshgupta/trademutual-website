@@ -4,7 +4,6 @@ export const LINKS = {
   LITE_PAPER: "https://docs.trademutual.org/",
   LEARN_MORE:
     "https://docs.trademutual.org/operations/frequenty-asked-question",
-  TOKEN_LEARN_MORE:"https://docs.trademutual.org/tokenomics/token-utility",
+  TOKEN_LEARN_MORE: "https://docs.trademutual.org/tokenomics/token-utility",
   ROADMAP: "https://docs.trademutual.org/overview/roadmap",
-  TOKEONOMICS: "https://docs.trademutual.org/tokenomics/tram-token",
 };
