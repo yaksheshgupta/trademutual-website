@@ -99,9 +99,9 @@ const AccordionItem = ({ headerContent, ...rest }: IProps) => (
           )}
         </div>
         <div className="justify-start flex-1">
-          <h5 className="text-sm font-bold text-white sm:text-base">
+          <h2 className="text-sm font-bold text-white sm:text-base">
             {headerContent}
-          </h5>
+          </h2>
         </div>
       </div>
     )}

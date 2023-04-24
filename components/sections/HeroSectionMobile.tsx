@@ -29,9 +29,9 @@ const heroPoints = [
 const HeroSectionMobile = () => {
   return (
     <section className="relative block lg:hidden w-screen min-h-screen bg-[#1D1B29] mx-auto mb-[10vh]">
-      <Image src={mobileBG} fill alt="mobile background image" />
+      <Image src={mobileBG} priority fill alt="mobile background image" />
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] scale-[0.6] sm:scale-[0.9] sm:top-[55%]">
-        <Image src={TMIcon} alt="mobile background image" />
+        <Image src={TMIcon} priority alt="mobile background image" />
       </div>
       <div className="absolute inset-x-0 top-0 grid place-items-center">
         <div className="max-w-[90vw] text-center mx-auto mt-[15vh]">

@@ -7,6 +7,7 @@ import howItWorksSVG from "../../public/images/howItWorksBG.svg";
 import FAQAccordion from "../FAQAccordion";
 import Footer from "../Footer";
 import GradientBox from "../GradientBox";
+import Link from "next/link";
 const FAQSection = () => {
   return (
     <section
@@ -19,13 +20,13 @@ const FAQSection = () => {
           <span className="block ">Frequently</span>
           <span>Asked Questions</span>
           <div className="mt-2 mb-6 lg:mt-6">
-            <a
+            <Link
               href={LINKS.LEARN_MORE}
               target="_blank"
               className="py-3 px-7 text-base font-normal lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
         <Image

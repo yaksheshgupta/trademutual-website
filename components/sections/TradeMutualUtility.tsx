@@ -3,6 +3,7 @@ import Image from "next/image";
 import utilityLogo from "../../public/images/utilityLogo.svg";
 import GradientBox from "../GradientBox";
 import TradeMutualUtilityItem from "../TradeMutualUtilityItem";
+import Link from "next/link";
 const TradeMutualUtilitySection = () => {
   return (
     <section
@@ -21,13 +22,13 @@ const TradeMutualUtilitySection = () => {
           </span>
         </div>
         <div className="mt-6 lg:mt-16">
-          <a
+          <Link
             href={LINKS.TOKEN_LEARN_MORE}
             target="_blank"
             className="py-3 px-7 lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="relative hidden lg:block lg:scale-[0.7] 2xl:scale-100">
           <Image
