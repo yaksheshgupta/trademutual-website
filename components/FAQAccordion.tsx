@@ -17,70 +17,65 @@ const FAQs = [
     qs: "What is unique about Trade Mutual?",
     ans: (
       <span>
-        TradeMutual value proposition is unique and currently there is no crypto
-        project with a similar business model. Platforms such as DAO ventures,
-        raise money from retail investors and invest in early-stage crypto
-        startups. Such platforms are not our competitors. Our business model is
-        to pool funds from retail investors and use that fund to trade
-        cryptocurrencies to generate profits. Given our focus on transparency,
-        fund safety, trustworthiness, and long-term vision we are confident that
-        we will win the interest of retail investors.
+        TradeMutual value proposition is unique as it makes crypto
+        trading as easy as making a stablecoin deposit.
+        . With TradeMutual, the average retail investor can earn profits from crypto trading without having to learn complicated trading strategies.
       </span>
     ),
   },
   {
-    qs: "How will $TRAM holders benefit?",
+    qs: "How do $TRAM holders benefit?",
     ans: (
       <ol className="list-decimal">
-        <li>Receive 20% of trading profits in stablecoin</li>
-        <li>Earn through $TRAM price appreciation</li>
+        <li>Receive 20% of profits in stablecoin</li>
+        <li>Earn from $TRAM price appreciation</li>
         <li>DEX liquidity providers earn rewards in $TRAM tokens</li>
         <li>
-          Can participate in community programs and earn rewards in stablecoin
+          Participate in community programs and earn rewards
         </li>
         <li>
-          Those holding a minimum of 108K $TRAM get access to the{" "}
+          Holders with 108K+ $TRAM Token get access to the{" "}
           <a
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
           >
-            investor club
+            Investor Club
           </a>
         </li>
-        <li>Can participate in DAO governance voting</li>
+        <li>Participate in decentralized governance</li>
       </ol>
     ),
   },
   {
-    qs: "How will the people investing in the trade-pool benefit?",
+    qs: "How do platform investors benefit?",
     ans: (
       <ol className="list-decimal">
         <li>Receive 70% of trading profits in the stablecoin</li>
         <li>
-          Benefit from crypto trading without spending any effort in trading
-          themselves
-        </li>
-        <li>
-          Those depositing a minimum of $5000 in trade-pool get access to the{" "}
+          Investors depositing $8000+ get access to the{" "}
           <a
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
           >
-            investor club
+            Investor Club
           </a>
+        </li>
+        <li>
+          Investors earn profits without having to trade themselves.
         </li>
       </ol>
     ),
   },
   {
-    qs: "What is the treasury?",
+    qs: "What type of cryptocurrencies TradeMutual will trade in?",
     ans: (
       <span>
-        Treasury is a project wallet where 10% share of the profits is
-        deposited. Treasury will pay for the operating expenses such as
-        staffing, platform operation, etc. During the initial periods the
-        treasury will be empty and such expenses will be paid from the funds
-        raised in the IDO
+        At TradeMutual, we focus on trading bluechip cryptocurrencies with strong tokenomics that meet our threshold for market cap and daily trading volume. This threshold is adjusted based on market conditions. Generally, we trade cryptocurrencies that are in the top-50 list by market cap, except for any meme tokens.
+
+
+
+
+
       </span>
     ),
   },

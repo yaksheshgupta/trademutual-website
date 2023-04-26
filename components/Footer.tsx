@@ -66,11 +66,11 @@ const Footer = () => {
             className="sm:scale-[1.5] 2xl:scale-[2] mt-16"
           />
           <div className="max-w-[600px] 2xl:max-w-[709px] text-xs sm:text-lg text-center text-white text-opacity-50 mt-12 mx-10">
-            <span>
+            {/* <span>
               TradeMutual is a retail-oriented crypto investment fund that
               focuses on crypto trading to generate superior returns for its
               investors
-            </span>
+            </span> */}
           </div>
           <div className="flex mt-6 space-x-4">
             {socials.map((social, index) => {

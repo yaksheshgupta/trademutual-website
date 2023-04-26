@@ -9,15 +9,15 @@ import Link from "next/link";
 
 const heroPoints = [
   {
-    label: "Enjoy the benefits of trading without the effort",
+    label: "Profit from Crypto Trading in Any Market Condition",
     bgColor: "#9E73FE",
   },
   {
-    label: "Access to professional traders  who handle all the trading",
+    label: "Earn profits without trading yourself",
     bgColor: "#E24FCD",
   },
   {
-    label: "No need to learn how to trade",
+    label: "Strong tokenomics for sustainable growth",
     bgColor: "#E24FCD",
   },
   {
@@ -36,13 +36,13 @@ const HeroSectionMobile = () => {
       <div className="absolute inset-x-0 top-0 grid place-items-center">
         <div className="max-w-[90vw] text-center mx-auto mt-[15vh]">
           <span className="text-white font-bold text-[40px] sm:text-[60px] block leading-none">
-            Invest in the Future of Money
+            Discover the Benefits of Crypto Trading with TradeMutual
           </span>
           <div className="mt-6">
             <span className="font-light text-white sm:text-2xl text-opacity-60">
-              Our cutting-edge technology and experienced traders work together
-              to generate optimal returns for you. Be a part of the future of
-              finance with trademutual
+              TradeMutual simplifies crypto trading -
+              <br />
+              deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf, generating profits.
             </span>
           </div>
         </div>

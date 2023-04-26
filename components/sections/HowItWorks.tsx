@@ -8,15 +8,15 @@ const HowItWorks = () => {
   const howItWorks = [
     {
       icon: depositStableCoinIcon,
-      label: "Only takes 5 minutes and needs a single blockchain transaction.",
+      label: "Deposit stablecoin on TradeMutual with just one transaction",
     },
     {
       icon: tradeCrypto,
-      label: "Place a link to token in your profile and your content.",
+      label: "Our experts trade bluechip crypto on behalf of investors and distribute profits",
     },
     {
       icon: earnProfitIcon,
-      label: "Click ‘Collect royalties’ to withdraw them to your address.",
+      label: "Investors can withdraw their funds at any time ",
     },
   ];
   return (
@@ -35,11 +35,11 @@ const HowItWorks = () => {
               How it works
             </h1>
             <div className="max-w-[800px] text-center lg:text-left">
-              <span className="text-sm font-light text-white sm:text-lg xl:text-xl text-opacity-60">
+              {/* <span className="text-sm font-light text-white sm:text-lg xl:text-xl text-opacity-60">
                 Our cutting-edge technology and experienced traders work
                 together to generate optimal returns for you. Be a part of the
                 future of finance with
-              </span>
+              </span> */}
             </div>
           </div>
           <div className="flex flex-col justify-center lg:scale-[0.8] xl:scale-100 lg:flex-row ">

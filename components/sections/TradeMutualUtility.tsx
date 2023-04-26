@@ -18,7 +18,7 @@ const TradeMutualUtilitySection = () => {
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
             $TRAM is the ERC20 utility token of Trade Mutual with a total supply
-            of 108 million tokens. It will have following utilities.
+            of 108 million tokens. The following token utilities are designed to promote sustainable price appreciation
           </span>
         </div>
         <div className="mt-6 lg:mt-16">
@@ -47,24 +47,24 @@ const TradeMutualUtilitySection = () => {
           <div className="absolute top-10 -right-1/4">
             <TradeMutualUtilityItem
               className="rounded-br-[35px]"
-              heading="Investor Club Access:"
-              label="Investors holding a minimum of 108K $TRAM tokens (0.1% of max supply) will get access to the investor club"
+              heading="Investor Club Access"
+              label="Investors holding 108K+ $TRAM tokens get access to the investor club"
             />
           </div>
 
           <div className="absolute bottom-1/3 -right-1/3">
             <TradeMutualUtilityItem
               className="rounded-tr-[35px]"
-              heading="Community Rewards:"
-              label="$TRAM Holders can participate in community events and earn rewards in stablecoin"
+              heading="Community Rewards"
+              label="$TRAM holders participate in community events and earn rewards"
             />
           </div>
 
           <div className="absolute bottom-0 right-0 -translate-x-[50%]">
             <TradeMutualUtilityItem
               className="rounded-tr-[35px] rounded-br-[35px]"
-              heading="Liquidity Provider Rewards:"
-              label="DEX liquidity providers will receive rewards in $TRAM tokens"
+              heading="Liquidity Provider Rewards"
+              label="DEX liquidity providers receive rewards in $TRAM tokens"
             />
           </div>
 
@@ -72,7 +72,7 @@ const TradeMutualUtilitySection = () => {
             <TradeMutualUtilityItem
               className="rounded-br-[35px]"
               heading="Governance"
-              label="$TRAM holders can vote for decentralized governance"
+              label="$TRAM holders vote on DAO proposals for decentralized governance"
             />
           </div>
         </div>
@@ -86,22 +86,22 @@ const TradeMutualUtilitySection = () => {
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Investor Club Access:"
-            label="Investors holding a minimum of 108K $TRAM tokens (0.1% of max supply) will get access to the investor club"
+            label="Investors holding 108K+ $TRAM tokens get access to the investor club"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Community Rewards:"
-            label="$TRAM Holders can participate in community events and earn rewards in stablecoin"
+            label="$TRAM holders participate in community events and earn rewards"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Liquidity Provider Rewards:"
-            label="DEX liquidity providers will receive rewards in $TRAM tokens"
+            label="DEX liquidity providers receive rewards in $TRAM tokens"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Governance"
-            label="$TRAM holders can vote for decentralized governance"
+            label="$TRAM holders vote on DAO proposals for decentralized governance"
           />
         </div>
       </div>
