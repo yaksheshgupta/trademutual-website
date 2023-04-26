@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="relative w-full aspect-[45/32]">
           <Image src={bgImage} fill alt="hi" priority />
           <div className="absolute left-[76.5%] top-[11%] max-w-[280px] 2xl:left-[79%] 2xl:top-[12.5%] xl:left-[78%] xl:top-[12.5%] ">
-            <HeroSectionLabelItem label="Profit from Crypto Trading in Any Market Condition" />
+            <HeroSectionLabelItem label="Profit from Crypto Trading in any market condition" />
           </div>
           <div className="absolute 2xl:left-[74.5%] 2xl:top-[28.5%] xl:left-[73.5%] xl:top-[28%] max-w-[280px] left-[72%] top-[27%]">
             <HeroSectionLabelItem label="Earn profits without trading yourself" />
@@ -31,16 +31,16 @@ const HeroSection = () => {
               <div className="text-[60px] text-white font-bold">TradeMutual</div>
               <div className="max-w-[525px] mt-8">
                 <span className="text-[22px] text-opacity-60 text-white leading-[42px] font-light">
-                TradeMutual simplifies crypto trading - 
-                <br/>
-                deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf, generating profits.
+                  TradeMutual simplifies crypto trading -
+                  <br />
+                  deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf and generate profits.
                 </span>
               </div>
-              <Link href="/airdrop">
-                <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
+              <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
+                <Link href="/airdrop">
                   Join Airdrop
-                </button>
-              </Link>
+                </Link>
+              </button>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const heroPoints = [
   {
-    label: "Profit from Crypto Trading in Any Market Condition",
+    label: "Profit from Crypto Trading in any market condition",
     bgColor: "#9E73FE",
   },
   {
@@ -42,7 +42,7 @@ const HeroSectionMobile = () => {
             <span className="font-light text-white sm:text-2xl text-opacity-60">
               TradeMutual simplifies crypto trading -
               <br />
-              deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf, generating profits.
+              deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf and generate profits.
             </span>
           </div>
         </div>

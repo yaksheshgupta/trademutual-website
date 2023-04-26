@@ -38,6 +38,7 @@ const FAQs = [
           <a
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
+            target="_blank"
           >
             Investor Club
           </a>
@@ -56,6 +57,7 @@ const FAQs = [
           <a
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
+            target="_blank"
           >
             Investor Club
           </a>

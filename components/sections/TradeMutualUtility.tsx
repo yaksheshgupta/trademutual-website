@@ -39,9 +39,9 @@ const TradeMutualUtilitySection = () => {
           />
           <div className="absolute top-10 -left-1/4">
             <TradeMutualUtilityItem
-              className="rounded-tr-[35px]"
+              className="rounded-tr-[35px] "
               heading="Profit Sharing"
-              label="$TRAM holders will receive 20% of the profits generated from crypto trading. It is paid in stablecoin"
+              label="$TRAM holders will receive 20% of the profits generated (paid in stablecoin)"
             />
           </div>
           <div className="absolute top-10 -right-1/4">
@@ -81,7 +81,7 @@ const TradeMutualUtilitySection = () => {
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Profit Sharing"
-            label="$TRAM holders will receive 20% of the profits generated from crypto trading. It is paid in stablecoin"
+            label="$TRAM holders will receive 20% of the profits generated (paid in stablecoin)"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
