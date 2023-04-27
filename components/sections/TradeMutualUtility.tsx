@@ -27,7 +27,7 @@ const TradeMutualUtilitySection = () => {
             target="_blank"
             className="py-3 px-7 lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
           >
-            Learn more
+            More About $TRAM
           </Link>
         </div>
         <div className="relative hidden lg:block lg:scale-[0.7] 2xl:scale-100">

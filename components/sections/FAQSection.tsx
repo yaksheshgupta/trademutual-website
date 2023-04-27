@@ -25,7 +25,7 @@ const FAQSection = () => {
               target="_blank"
               className="py-3 px-7 text-base font-normal lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "
             >
-              Learn more
+              Know more 
             </Link>
           </div>
         </div>
