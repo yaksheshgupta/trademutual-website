@@ -31,6 +31,11 @@ const socials = [
     type: "discord",
     link: "https://discord.com/invite/vEusPkXx",
   },
+  {
+    icon: Icon4,
+    type: "Github",
+    link: "https://github.com/trademutual-org",
+  },
 ];
 const Footer = () => {
   return (

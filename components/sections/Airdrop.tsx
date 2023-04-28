@@ -6,26 +6,11 @@ import howItWorksSVG from "../../public/images/Frame684912.svg";
 import GradientBox from "../GradientBox";
 import Link from "next/link";
 const Airdrop = () => {
-  const howItWorks = [
-    {
-      icon: depositStableCoinIcon,
-      label: "Only takes 5 minutes and needs a single blockchain transaction.",
-    },
-    {
-      icon: tradeCrypto,
-      label: "Place a link to token in your profile and your content.",
-    },
-    {
-      icon: earnProfitIcon,
-      label: "Click ‘Collect royalties’ to withdraw them to your address.",
-    },
-  ];
   return (
     <section
-      id="how-it-works"
+      id="airdrop"
       className="w-screen  bg-[#1d1b29] mt-[10vh] lg:mt-[15vh] mb-[10vh]"
     >
-      <GradientBox />
       <div className="w-full mx-auto max-w-[1440px] relative">
         {/* <div className="absolute flex-row-reverse hidden w-full md:flex">
           <Image src={howItWorksSVG} height={710} alt="" />
