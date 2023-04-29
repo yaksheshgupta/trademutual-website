@@ -47,7 +47,7 @@ const HeroSectionMobile = () => {
           </div>
         </div>
         <button className="py-3 px-7 text-sm rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] sm:text-xl max-w-fit mt-7">
-          <Link href="/airdrop" aria-label="Apply for airdrop">Join Airdrop</Link>
+          <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">Join Airdrop</Link>
         </button>
       </div>
       <div className="absolute inset-x-0 max-w-[450px] mx-auto bottom-0 grid grid-cols-2 gap-2 text-xs">

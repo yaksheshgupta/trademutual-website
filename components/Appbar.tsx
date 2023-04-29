@@ -41,7 +41,7 @@ const Appbar = () => {
   const [isAppBarOpen, setAppBarOpen] = useState(false);
   return (
     <nav className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
-      <Link href="/">
+      <Link rel="canonical" href="/">
         <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
       </Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
@@ -54,13 +54,13 @@ const Appbar = () => {
         <Link href="/#faq" scroll={false}>
           FAQ
         </Link>
-        <a href={LINKS.LITE_PAPER} target="_blank">
+        <Link rel="canonical" href={LINKS.LITE_PAPER} target="_blank">
           Litepaper
-        </a>
+        </Link>
         {/* <a href="/airdrop">Airdrop</a> */}
       </div>
       <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
-        <Link href="/airdrop" aria-label="Apply for airdrop">
+        <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
           Join Airdrop
           {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
         </Link>
@@ -104,18 +104,19 @@ const Appbar = () => {
           <Link href="#faq" scroll={false} onClick={() => setAppBarOpen(false)}>
             FAQ
           </Link>
-          <a
+          <Link
+            rel="canonical"
             href={LINKS.LITE_PAPER}
             target="_blank"
             onClick={() => setAppBarOpen(false)}
           >
             Litepaper
-          </a>
+          </Link>
           {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Airdrop
           </a> */}
           <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
-            <Link href="/airdrop" aria-label="Apply for airdrop">
+            <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
               Join Airdrop
               {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
             </Link>

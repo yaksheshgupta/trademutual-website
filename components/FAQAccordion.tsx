@@ -7,6 +7,8 @@ import {
   AccordionItem as Item,
 } from "@szhsin/react-accordion";
 import Image from "next/image";
+import { Linden_Hill } from "next/font/google";
+import Link from "next/link";
 
 interface IProps extends AccordionItemProps {
   headerContent: string;
@@ -35,13 +37,14 @@ const FAQs = [
         </li>
         <li>
           Holders with 108K+ $TRAM Token get access to the{" "}
-          <a
+          <Link
+            rel="canonical"
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
             target="_blank"
           >
             Investor Club
-          </a>
+          </Link>
         </li>
         <li>Participate in decentralized governance</li>
       </ol>
@@ -54,13 +57,14 @@ const FAQs = [
         <li>Receive 70% of trading profits in the stablecoin</li>
         <li>
           Investors depositing $8000+ get access to the{" "}
-          <a
+          <Link
+            rel="canonical"
             href="https://docs.trademutual.org/tokenomics/investor-club"
             className="text-white underline"
             target="_blank"
           >
             Investor Club
-          </a>
+          </Link>
         </li>
         <li>
           Investors earn profits without having to trade themselves.

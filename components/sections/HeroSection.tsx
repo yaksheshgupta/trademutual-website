@@ -37,7 +37,7 @@ const HeroSection = () => {
                 </span>
               </div>
               <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
-                <Link href="/airdrop" aria-label="Apply for airdrop">
+                <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
                   Join Airdrop
                 </Link>
               </button>

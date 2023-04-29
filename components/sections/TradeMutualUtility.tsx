@@ -23,6 +23,7 @@ const TradeMutualUtilitySection = () => {
         </div>
         <div className="mt-6 lg:mt-16">
           <Link
+            rel="canonical"
             href={LINKS.TOKEN_LEARN_MORE}
             target="_blank"
             className="py-3 px-7 lg:px-10 lg:py-4 bg-white rounded-full bg-opacity-10 backdrop-filter backdrop-blur-2xl lg:text-[22px] text-white "

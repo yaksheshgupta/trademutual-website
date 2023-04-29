@@ -23,7 +23,7 @@ const socials = [
   {
     icon: Icon4,
     type: "discord",
-    link: "https://discord.com/invite/vEusPkXx",
+    link: "https://discord.com/invite/rVYhWDDy6B",
   },
 ];
 const FixedScrollBar = () => {
@@ -31,7 +31,7 @@ const FixedScrollBar = () => {
     <div className="fixed z-30 items-center hidden h-screen lg:flex left-10">
       <div className="flex flex-col space-y-4">
         {socials.map((social, index) => {
-          return <Link href={social.link} target="_blank" key={index}><Image key={index} src={social.icon} alt={social.type} /></Link>;
+          return <Link rel="canonical" href={social.link} target="_blank" key={index}><Image key={index} src={social.icon} alt={social.type} /></Link>;
         })}
       </div>
     </div>
