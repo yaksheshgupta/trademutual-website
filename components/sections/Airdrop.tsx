@@ -1,9 +1,3 @@
-import Image from "next/image";
-import tradeCrypto from "../../public/images/tradeCryptoIcon.svg";
-import depositStableCoinIcon from "../../public/images/depositStableCoinIcon.svg";
-import earnProfitIcon from "../../public/images/earnProfitIcon.svg";
-import howItWorksSVG from "../../public/images/Frame684912.svg";
-import GradientBox from "../GradientBox";
 import Link from "next/link";
 const Airdrop = () => {
   return (
@@ -21,7 +15,7 @@ const Airdrop = () => {
               AirDrop
             </h1>
             <div className="max-w-[800px] text-center lg:text-left">
-                <h2 style={{color:"white"}}>Phase 1</h2>
+              <h2 style={{ color: "white" }}>Phase 1</h2>
               <span className="text-sm font-light text-white sm:text-lg xl:text-xl text-opacity-60">
                 Madhubala Se Bhi Aala Dikhti Ho
                 Meri Nazar Se Tum Ko Dekhu To
@@ -33,10 +27,10 @@ const Airdrop = () => {
                 Samajh Se Hai Pare, Pare, Pare
                 Ye Tera Jadoo-Jadoo
                 <br />
-                </span>
-                <h2 style={{color:"white"}}>Elegibility-</h2>
+              </span>
+              <h2 style={{ color: "white" }}>Elegibility-</h2>
 
-                <span className="text-sm font-light text-white sm:text-lg xl:text-xl text-opacity-60">
+              <span className="text-sm font-light text-white sm:text-lg xl:text-xl text-opacity-60">
 
                 Zohra Jabee Se Bhi Hasee Lagti Ho
                 Meri Nazar Se Tum Ko Dekhu To
@@ -51,14 +45,17 @@ const Airdrop = () => {
 
 
               </span>
-              <br/>
-              <br/>
-              <h1 style={{color:"white"}}><Link href="https://docs.trademutual.org/tokenomics/airdrop" target="_blank" style={{textDecoration:"underline"}} >Learn more about airdrop</Link></h1>
-              <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit mt-10">
-                <Link href="/airdrop">Apply for Phase 1</Link>
-                {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
+              <br />
+              <br />
+              <h1 style={{ color: "white" }}><Link href="https://docs.trademutual.org/tokenomics/airdrop" target="_blank" style={{ textDecoration: "underline" }} >Learn more about airdrop</Link></h1>
+              <button  className="lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit mt-10">
+                <Link href="/phase1form">
+                  
+                  Apply for Phase 1
+                  </Link>
+
               </button>
-              <br/>
+              <br />
             </div>
           </div>
           {/* <div className="flex flex-col justify-center lg:scale-[0.8] xl:scale-100 lg:flex-row ">

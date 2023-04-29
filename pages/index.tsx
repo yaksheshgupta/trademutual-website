@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <div className="bg-[#1d1b29]" style={sora.style} id="body-container">
       <Head>
-        <title>Trademutual</title>
+        <title>TradeMutual</title>
         <meta
           name="description"
-          content="trademutual website"/>
+          content="Discover the Benefits of Crypto Trading with TradeMutual"/>
       </Head>
       <Appbar />
       <FixedScrollBar />
