@@ -30,7 +30,7 @@ const TradeMutualUtilitySection = () => {
           >
             More About $TRAM
           </Link>
-        </div>
+        </div> 
         <div className="relative hidden lg:block lg:scale-[0.7] 2xl:scale-100">
           <Image
             src={utilityLogo}

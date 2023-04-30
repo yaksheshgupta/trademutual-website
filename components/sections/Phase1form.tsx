@@ -20,7 +20,7 @@ const Airdrop = () => {
                     <div className="relative w-[100%]  xl:w-[80%] h-[50vh] ">
                     <Image src="/images/Long_Logo.png"  fill alt="icon" />
                   </div>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScq29QD7FhuUjhiaicRbPaNnHlm8EfUrgXctSj54rfC3dIxsQ/viewform?embedded=true" width="640" height="1600"  >Form Loading....</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScq29QD7FhuUjhiaicRbPaNnHlm8EfUrgXctSj54rfC3dIxsQ/viewform?embedded=true"   width="640" height="1600"  >Form Loading....</iframe>
 
                 </div>
             </div>
