@@ -59,12 +59,12 @@ const Appbar = () => {
         </Link>
         {/* <a href="/airdrop">Airdrop</a> */}
       </div>
-      <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
-        <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+      <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+        <button className="hidden lg:block py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ml-7">
           Join Airdrop
           {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
-        </Link>
-      </button>
+        </button>
+      </Link>
       <div className="ml-auto mr-6 lg:hidden">
         <div onClick={() => setAppBarOpen(true)}>
           <HamburgerIcon />
@@ -115,12 +115,12 @@ const Appbar = () => {
           {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Airdrop
           </a> */}
-          <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
-            <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+          <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+            <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
               Join Airdrop
               {/* <a href={LINKS.JOIN_WAITLIST}>Join Airdrop</a> */}
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
         <div className="w-full flex-1   bg-gradient-to-r from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B]">
           <div className="w-full h-full bg-gradient-to-b from-[#1d1b29] to-transparent"></div>

@@ -35,19 +35,22 @@ const HeroSectionMobile = () => {
       </div>
       <div className="absolute inset-x-0 top-0 grid place-items-center">
         <div className="max-w-[90vw] text-center mx-auto mt-[15vh]">
-          <span className="text-white font-bold text-[40px] sm:text-[60px] block leading-none">
+          <span className="text-white font-bold text-[25px] sm:text-[60px] block leading-none">
             Discover the Benefits of Crypto Trading with TradeMutual
           </span>
-          <div className="mt-6">
+          <div className="mt-6 text-sm">
             <span className="font-light text-white sm:text-2xl text-opacity-60">
               TradeMutual simplifies crypto trading -
               <br />
-              deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf and generate profits.
+              deposit stablecoins on our platform and let our experts trade
+              bluechip crypto on your behalf and generate profits.
             </span>
           </div>
         </div>
         <button className="py-3 px-7 text-sm rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] sm:text-xl max-w-fit mt-7">
-          <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">Join Airdrop</Link>
+          <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+            Join Airdrop
+          </Link>
         </button>
       </div>
       <div className="absolute inset-x-0 max-w-[450px] mx-auto bottom-0 grid grid-cols-2 gap-2 text-xs">
