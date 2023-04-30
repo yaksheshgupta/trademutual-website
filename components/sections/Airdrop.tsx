@@ -48,7 +48,7 @@ const Airdrop = () => {
                     className="lg:max-w-[450px] rounded-br-[50px] "
                   />
                   <div className="absolute max-w-[88px] md:scale-[1.4] bottom-0 md:bottom-8 right-5">
-                    <Image src={Icon01} />
+                    <Image src={Icon01} alt="Phase 1 Icon" />
                   </div>
                 </div>
 
