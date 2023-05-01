@@ -66,7 +66,7 @@ const Airdrop = () => {
             alt=""
             src={AirdropBG}
             fill
-            className="w-full z-10 max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto translate-y-[25vh]"
+            className="w-full z-10 max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-y-[15vh]"
           />
         </div>
       </div>
