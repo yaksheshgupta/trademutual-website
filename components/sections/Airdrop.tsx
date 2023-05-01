@@ -39,7 +39,7 @@ const Airdrop = () => {
               </div>
             </div>
             <div className="flex flex-col-reverse xl:flex-col">
-              <div className="flex flex-col md:flex-row mt-[60px] space-x-6 space-y-6 mr-5 xl:mr-0">
+              <div className="flex flex-col md:flex-row mt-[60px] md:space-x-5 space-y-6 md:space-y-0 mr-5 xl:mr-0">
                 <div className="relative overflow-hidden rounded-br-[50px]">
                   <TradeMutualUtilityItem
                     heading="Phase 1"
@@ -47,7 +47,7 @@ const Airdrop = () => {
                     showIcon={false}
                     className="lg:max-w-[450px] rounded-br-[50px] "
                   />
-                  <div className="absolute max-w-[88px] md:scale-[1.4] bottom-0 md:bottom-8 right-5">
+                  <div className="absolute max-w-[88px] md:scale-[1.4] bottom-0 right-5">
                     <Image src={Icon01} alt="Phase 1 Icon" />
                   </div>
                 </div>
