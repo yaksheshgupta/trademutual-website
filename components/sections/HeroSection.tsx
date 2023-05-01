@@ -8,7 +8,15 @@ const HeroSection = () => {
     <section className="w-screen  bg-[#1d1b29] mb-[10vh] hidden lg:block">
       <div className="w-full max-w-[1440px] mx-auto ">
         <div className="relative w-full aspect-[45/32]">
-          <Image src={bgImage} fill alt="hi" priority />
+          <Image
+            src={bgImage}
+            fill
+            alt="hi"
+            priority
+            className="pointer-events-none"
+            draggable={false}
+          />
+          <div className="absolute inset-0"></div>
           <div className="absolute left-[76.5%] top-[11%] max-w-[280px] 2xl:left-[79%] 2xl:top-[12.5%] xl:left-[78%] xl:top-[12.5%] ">
             <HeroSectionLabelItem label="Profit from Crypto Trading in any market condition" />
           </div>
@@ -22,25 +30,30 @@ const HeroSection = () => {
             <HeroSectionLabelItem label="Potential for steady returns on investment" />
           </div>
 
-          <div className="absolute top-0 left-0 bottom-0 pl-10 xl:pl-[100px] 2xl:pl-[116px] flex items-center scale-[0.7] xl:scale-90 2xl:scale-100">
+          <div className="absolute top-0 max-w-[50%]  left-0 bottom-0 pl-10 xl:pl-[100px] 2xl:pl-[116px] flex items-center scale-[0.7] xl:scale-90 2xl:scale-100">
             <div className="flex flex-col justify-center ">
-              <div className="text-[60px] text-white font-bold">Discover the Benefits</div>
+              <div className="text-[60px] text-white font-bold">
+                Discover the Benefits
+              </div>
               <div className="text-[60px] text-white font-bold">
                 of Crypto Trading with
               </div>
-              <div className="text-[60px] text-white font-bold">TradeMutual</div>
+              <div className="text-[60px] text-white font-bold">
+                TradeMutual
+              </div>
               <div className="max-w-[525px] mt-8">
                 <span className="text-[22px] text-opacity-60 text-white leading-[42px] font-light">
                   TradeMutual simplifies crypto trading -
                   <br />
-                  deposit stablecoins on our platform and let our experts trade bluechip crypto on your behalf and generate profits.
+                  deposit stablecoins on our platform and let our experts trade
+                  bluechip crypto on your behalf and generate profits.
                 </span>
               </div>
-              <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
-                <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
+              <Link href="/airdrop" className="max-w-fit">
+                <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[84px]">
                   Join Airdrop
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
