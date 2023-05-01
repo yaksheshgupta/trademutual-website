@@ -16,7 +16,7 @@ const Airdrop = () => {
               alt=""
               src={AirdropBG}
               fill
-              className="w-full max-w-[500px] max-h-[700px] hidden md:block aspect-square mr-auto"
+              className="w-full max-w-[500px] max-h-[600px] md:max-h-[700px] md:block aspect-square mr-auto -translate-x-[10vw] md:translate-x-0"
             />
             <h2 className="my-6 text-2xl font-bold text-center text-white md:text-[40px]">
               Please register for
@@ -26,11 +26,11 @@ const Airdrop = () => {
             </span>
           </div>
 
-          <div className="w-full  mt-[10vh] z-[99]">
+          <div className="w-full  mt-[10vh] z-[99] h-[2000px] lg:h-[1600px]">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLScq29QD7FhuUjhiaicRbPaNnHlm8EfUrgXctSj54rfC3dIxsQ/viewform?embedded=true"
               width="100%"
-              height="1600"
+              height="100%"
             >
               Form Loading....
             </iframe>
@@ -39,7 +39,7 @@ const Airdrop = () => {
             alt=""
             src={AirdropBG}
             fill
-            className="w-full max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-x-[5vw] translate-y-[20vh]"
+            className="w-full max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-x-[5vw]"
           />
         </div>
       </div>
