@@ -41,7 +41,7 @@ const Footer = () => {
   return (
     <div className="relative bg-[#1D1B29] overflow-hidden grid place-items-center w-screen max-w-[1440px] mx-auto ">
       <div className="absolute translate-y-[80%]">
-        <Image src={footerOverLap} unoptimized alt="Footer BG" />
+        <Image src={footerOverLap} draggable={false} unoptimized alt="Footer BG" />
       </div>
       <div className="relative grid place-items-center">
         <Image
@@ -50,6 +50,7 @@ const Footer = () => {
           alt="Footer Background"
           height={635}
           width={1440}
+          draggable={false}
           className="hidden backdrop-filter backdrop-blur-2xl lg:block"
         />
         <Image

@@ -18,6 +18,7 @@ const Airdrop = () => {
               alt=""
               src={AirdropBG}
               fill
+              draggable={false}
               className="w-full max-w-[500px] max-h-[600px] md:max-h-[700px] md:block aspect-square mr-auto -translate-x-[10vw] md:translate-x-0"
             />
             <h2 className="my-6 text-2xl font-bold text-center text-white md:text-[40px]">
@@ -64,6 +65,7 @@ const Airdrop = () => {
             alt=""
             src={AirdropBG}
             fill
+            draggable={false}
             className="w-full max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-x-[5vw]"
           />
         </div>
