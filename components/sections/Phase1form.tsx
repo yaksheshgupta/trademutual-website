@@ -57,6 +57,7 @@ const Airdrop = () => {
               width="100%"
               height="100%"
               className="absolute"
+              loading="eager"
             ></iframe>
           </div>
           <Image
