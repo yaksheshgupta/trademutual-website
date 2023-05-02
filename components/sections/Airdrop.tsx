@@ -71,7 +71,7 @@ const Airdrop = () => {
                 </Link>
                 <Link
                   href="https://docs.trademutual.org/tokenomics/airdrop"
-                  className="px-5 text-white lg:px-8 lg:text-xl"
+                  className=" py-3 px-4 text-white lg:px-8 lg:text-xl rounded-full  border-2 border-white"
                   target="_blank"
                 >
                   {" "}
