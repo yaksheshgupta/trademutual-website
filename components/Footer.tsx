@@ -31,17 +31,17 @@ const socials = [
     type: "discord",
     link: "https://discord.com/invite/vEusPkXx",
   },
-  {
-    icon: Icon4,
-    type: "Github",
-    link: "https://github.com/trademutual-org",
-  },
+  // {
+  //   icon: Icon4,
+  //   type: "Github",
+  //   link: "https://github.com/trademutual-org",
+  // },
 ];
 const Footer = () => {
   return (
     <div className="relative bg-[#1D1B29] overflow-hidden grid place-items-center w-screen max-w-[1440px] mx-auto ">
       <div className="absolute translate-y-[80%]">
-        <Image src={footerOverLap} draggable={false} unoptimized alt="Footer BG" />
+        <Image src={footerOverLap} className="select-none" draggable={false} unoptimized alt="Footer BG" />
       </div>
       <div className="relative grid place-items-center">
         <Image
@@ -51,7 +51,7 @@ const Footer = () => {
           height={635}
           width={1440}
           draggable={false}
-          className="hidden backdrop-filter backdrop-blur-2xl lg:block"
+          className="hidden backdrop-filter backdrop-blur-2xl lg:block select-none"
         />
         <Image
           src={phnFooterImg}
@@ -59,7 +59,7 @@ const Footer = () => {
           alt="Footer Background"
           // height={635}
           width={1440}
-          className="block backdrop-filter lg:hidden backdrop-blur-2xl"
+          className="block backdrop-filter lg:hidden backdrop-blur-2xl select-none"
         />
 
         <div className="absolute flex flex-col items-center ">
@@ -69,7 +69,7 @@ const Footer = () => {
             alt="TM Logo"
             height={33}
             width={180}
-            className="sm:scale-[1.5] 2xl:scale-[2] mt-16"
+            className="sm:scale-[1.5] 2xl:scale-[2] mt-16 select-none"
           />
           <div className="max-w-[600px] 2xl:max-w-[709px] text-xs sm:text-lg text-center text-white text-opacity-50 mt-12 mx-10">
             {/* <span>
@@ -82,7 +82,7 @@ const Footer = () => {
             {socials.map((social, index) => {
               return (
                 <Link rel="canonical" href={social.link} target="_blank" key={index}>
-                  <Image key={index} src={social.icon} alt={social.type} />
+                  <Image className="select-none" draggable={false} key={index} src={social.icon} alt={social.type} />
                 </Link>
               );
             })}

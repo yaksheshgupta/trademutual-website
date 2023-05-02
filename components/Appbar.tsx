@@ -42,7 +42,7 @@ const Appbar = () => {
   return (
     <nav className="fixed z-[999] top-0 flex w-full lg:w-[calc(100vw-100px)] py-4  rounded-full bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 max-w-[1440px]  left-[50%] -translate-x-[50%] pl-6  sm:pl-[90px] 2xl:pl-[116px] items-center">
       <Link rel="canonical" href="/">
-        <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
+        <Image draggable={false} className="select-none" unoptimized src={logo} alt="TM Logo" height={33} width={180} />
       </Link>
       <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
         <Link href="/#how-it-works" scroll={false}>
@@ -78,7 +78,7 @@ const Appbar = () => {
         customStyle="pt-[10vh] flex flex-col"
       >
         <div className="flex px-6">
-          <Image unoptimized src={logo} alt="TM Logo" height={33} width={180} />
+          <Image draggable={false} className="select-none" unoptimized src={logo} alt="TM Logo" height={33} width={180} />
           <div className="ml-auto">
             <div onClick={() => setAppBarOpen(false)}>
               <CrossIcon />

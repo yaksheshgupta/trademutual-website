@@ -36,7 +36,8 @@ const TradeMutualUtilityItem = ({
             width={24}
             height={24}
             alt="check icon"
-            className="mb-2"
+            draggable={false}
+            className="mb-2 select-none"
           />
         )}
         <h1 className="font-semibold text-white sm:text-2xl">{heading}</h1>

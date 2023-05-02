@@ -5,7 +5,7 @@ import Image from "next/image";
 import AirdropBG from "../../public/images/Airdrop.webp";
 import Icon01 from "../../public/images/01.svg";
 const PHASE1_DESC =
-  "This airdrop will happen before $TRAM private sale to reward the early members of the communityThis airdrop will happen before $TRAM private sale to reward the early members of the community";
+  "This airdrop will happen before TRAM private sale to reward the early members of the communityThis airdrop will happen before TRAM private sale to reward the early members of the community";
 const Airdrop = () => {
   return (
     <section
@@ -23,9 +23,9 @@ const Airdrop = () => {
             </h1>
             <div className="flex">
               <span className="text-white text-md md:text-xl lg:leading-7 font-extralight text-opacity-60">
-                TradeMutual will airdrop $TRAM tokens to its community members
+                TradeMutual will airdrop TRAM tokens to its community members
                 in three phases. Each phase will benefit a specific section of
-                the community.TradeMutual will airdrop $TRAM tokens to its
+                the community.TradeMutual will airdrop TRAM tokens to its
                 community members in three phases. Each phase will benefit a
                 specific section of the community.
               </span>
@@ -34,7 +34,8 @@ const Airdrop = () => {
                   alt=""
                   src={AirdropBG}
                   fill
-                  className="ml-auto xl:block max-h-[230px] md:min-h-[360px]"
+                  draggable={false}
+                  className="ml-auto xl:block max-h-[230px] md:min-h-[360px] select-none"
                 />
               </div>
             </div>
@@ -48,7 +49,7 @@ const Airdrop = () => {
                     className="lg:max-w-[450px] rounded-br-[50px] "
                   />
                   <div className="absolute max-w-[88px] md:scale-[1.4] bottom-0 right-5">
-                    <Image src={Icon01} alt="Phase 1 Icon" />
+                    <Image className="select-none" draggable={false} src={Icon01} alt="Phase 1 Icon" />
                   </div>
                 </div>
 
@@ -69,8 +70,9 @@ const Airdrop = () => {
                   Apply for Phase 1
                 </Link>
                 <Link
-                  href={LINKS.LEARN_MORE}
+                  href="https://docs.trademutual.org/tokenomics/airdrop"
                   className="px-5 text-white lg:px-8 lg:text-xl"
+                  target="_blank"
                 >
                   {" "}
                   Know More
@@ -80,7 +82,8 @@ const Airdrop = () => {
                 alt=""
                 src={AirdropBG}
                 fill
-                className="w-full max-w-[500px] hidden xl:block aspect-square ml-auto"
+                draggable={false}
+                className="w-full max-w-[500px] hidden xl:block aspect-square ml-auto select-none"
               />
             </div>
           </div>

@@ -47,7 +47,7 @@ const HowItWorks = () => {
               return (
                 <div key={index} className="flex flex-col items-center">
                   <div className="relative w-[340px]  xl:w-[394px] h-[349px]">
-                    <Image src={item.icon} fill alt="icon" />
+                    <Image src={item.icon} draggable={false} className="select-none" fill alt="icon" />
                   </div>
                   <div className="max-w-[350px] text-center ">
                     <span className="text-lg font-light text-white text-opacity-60">

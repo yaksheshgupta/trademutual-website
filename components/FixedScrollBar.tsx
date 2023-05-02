@@ -29,9 +29,9 @@ const socials = [
 const FixedScrollBar = () => {
   return (
     <div className="fixed z-30 items-center hidden h-screen lg:flex left-10">
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-4 select-none">
         {socials.map((social, index) => {
-          return <Link rel="canonical" href={social.link} target="_blank" key={index}><Image key={index} src={social.icon} alt={social.type} /></Link>;
+          return <Link rel="canonical" href={social.link} target="_blank" key={index}><Image draggable={false} key={index} src={social.icon} alt={social.type} /></Link>;
         })}
       </div>
     </div>

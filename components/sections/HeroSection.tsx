@@ -13,7 +13,7 @@ const HeroSection = () => {
             fill
             alt="hi"
             priority
-            className="pointer-events-none"
+            className="pointer-events-none select-none"
             draggable={false}
           />
           <div className="absolute inset-0"></div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
             <HeroSectionLabelItem label="Strong tokenomics for sustainable growth" />
           </div>
           <div className="absolute left-[76%] top-[81%] xl:left-[77.5%] xl:top-[82%] 2xl:left-[78.5%] 2xl:top-[81%] max-w-[280px]">
-            <HeroSectionLabelItem label="Potential for steady returns on investment" />
+            <HeroSectionLabelItem label="Join investor club for exclusive benefits and market insights" />
           </div>
 
           <div className="absolute top-0 max-w-[50%]  left-0 bottom-0 pl-10 xl:pl-[100px] 2xl:pl-[116px] flex items-center scale-[0.7] xl:scale-90 2xl:scale-100">

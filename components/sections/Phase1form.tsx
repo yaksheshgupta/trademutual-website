@@ -19,20 +19,21 @@ const Airdrop = () => {
               src={AirdropBG}
               fill
               draggable={false}
-              className="w-full max-w-[500px] max-h-[600px] md:max-h-[700px] md:block aspect-square mr-auto -translate-x-[10vw] md:translate-x-0"
+              style={{ transform: "rotateY(180deg)" }}
+              className="w-full max-w-[500px] max-h-[600px] md:max-h-[700px] md:block aspect-square mr-auto -translate-x-[10vw] md:translate-x-0 select-none"
             />
-            <h2 className="my-6 text-2xl font-bold text-center text-white md:text-[40px]">
+            <h2 className="my-6 text-2xl font-semibold text-center text-white md:text-[70px]">
               Please register for
             </h2>
-            <span className="mb-6 text-xl text-white md:text-[30px]">
-              $TRAM token phase 1 airdrop
+            <span className="mb-6 mt-6 text-xl text-white md:text-[40px] font-extralight">
+              TRAM token phase 1 airdrop
             </span>
           </div>
 
-          <div className="w-full  mt-[10vh] z-[99] h-[2000px] lg:h-[1600px] relative">
+          <div className="w-full max-w-[950px]  mt-[10vh] z-[99] h-[2000px] rounded-3xl pt-5 lg:h-[1600px] border-white border-2 relative bg-white backdrop-filter backdrop-blur-2xl bg-opacity-10">
             <div
               role="status"
-              className="absolute inset-0 flex items-center justify-center h-full"
+              className="absolute inset-0 flex justify-center h-full pt-[6vh]"
             >
               <svg
                 aria-hidden="true"
@@ -57,8 +58,9 @@ const Airdrop = () => {
               src="https://docs.google.com/forms/d/e/1FAIpQLScq29QD7FhuUjhiaicRbPaNnHlm8EfUrgXctSj54rfC3dIxsQ/viewform?embedded=true"
               width="100%"
               height="100%"
-              className="absolute"
+              className="absolute w-full select-none"
               loading="eager"
+              style={{ height: "100%", width: "100%" }}
             ></iframe>
           </div>
           <Image
@@ -66,7 +68,7 @@ const Airdrop = () => {
             src={AirdropBG}
             fill
             draggable={false}
-            className="w-full max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-x-[5vw]"
+            className="w-full z-10 max-w-[500px] max-h-[700px] hidden md:block aspect-square ml-auto mt-auto -translate-y-[15vh] select-none"
           />
         </div>
       </div>

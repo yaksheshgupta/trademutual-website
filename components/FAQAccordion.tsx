@@ -27,15 +27,15 @@ const FAQs = [
     ),
   },
   {
-    qs: "How do $TRAM holders benefit?",
+    qs: "How do TRAM holders benefit?",
     ans: (
       <ol className="list-decimal">
         <li>Receive 20% of profits in stablecoin</li>
-        <li>Earn from $TRAM price appreciation</li>
-        <li>DEX liquidity providers earn rewards in $TRAM tokens</li>
+        <li>Earn from TRAM price appreciation</li>
+        <li>DEX liquidity providers earn rewards in TRAM tokens</li>
         <li>Participate in community programs and earn rewards</li>
         <li>
-          Holders with 108K+ $TRAM Token get access to the{" "}
+          Holders with 108K+ TRAM Token get access to the{" "}
           <Link
             rel="canonical"
             href="https://docs.trademutual.org/tokenomics/investor-club"
@@ -76,8 +76,8 @@ const FAQs = [
         At TradeMutual, we focus on trading bluechip cryptocurrencies with
         strong tokenomics that meet our threshold for market cap and daily
         trading volume. This threshold is adjusted based on market conditions.
-        Generally, we trade cryptocurrencies that are in the top-50 list by
-        market cap, except for any meme tokens.
+        Generally, we trade cryptocurrencies (excluding meme tokens) 
+        that are in the top-50 list by market cap
       </span>
     ),
   },
@@ -90,9 +90,9 @@ const AccordionItem = ({ headerContent, ...rest }: IProps) => (
       <div className="flex items-center justify-start w-full p-4 space-x-4">
         <div className="relative w-6 aspect-square">
           {state.isEnter ? (
-            <Image unoptimized src={minusIcon} alt="accordion icon" />
+            <Image unoptimized draggable={false} className="select-none" src={minusIcon} alt="accordion icon" />
           ) : (
-            <Image unoptimized src={plusIcon} alt="accordion icon" />
+            <Image unoptimized draggable={false} className="select-none" src={plusIcon} alt="accordion icon" />
           )}
         </div>
         <div className="justify-start flex-1">

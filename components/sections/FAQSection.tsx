@@ -35,8 +35,9 @@ const FAQSection = () => {
           unoptimized
           width={748}
           height={766}
-          alt="hi"
-          className="translate-y-[10%] hidden lg:block"
+          alt="FAQ bg"
+          draggable={false}
+          className="translate-y-[10%] hidden lg:block select-none"
         />
       </div>
       <div className="absolute right-0 flex-row-reverse hidden overflow-hidden xl:flex">
@@ -44,8 +45,9 @@ const FAQSection = () => {
           unoptimized
           src={howItWorksSVG}
           height={810}
-          alt=""
-          className="translate-x-1/4"
+          alt="FAQ bg"
+          draggable={false}
+          className="translate-x-1/4 select-none"
         />
       </div>
       <div className="z-10 px-6 lg:px-0 lg:-translate-x-1/4">
