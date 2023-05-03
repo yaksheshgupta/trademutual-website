@@ -66,7 +66,7 @@ const TradeMutualUtilitySection = () => {
 
           <div className="absolute -bottom-14 right-0 -translate-x-[50%]">
             <TradeMutualUtilityItem
-              className="rounded-tr-[35px] rounded-br-[35px]"
+              className="rounded-tr-[35px] rounded-br-[35px] max-w-[1000px]"
               heading="Liquidity Provider Rewards"
               label="DEX liquidity providers receive rewards in TRAM tokens"
             />
