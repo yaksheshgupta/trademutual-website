@@ -32,7 +32,7 @@ const Airdrop = () => {
                 where each phase will reward a specific section of the community.
                 The registration process for the first phase of the airdrop is now open.
                 <br/>
-                Don't miss out on this opportunity to be a part of our community and earn rewards!
+                Don{"'"}t miss out on this opportunity to be a part of our community and earn rewards!
               </span>
               <div className="xl:hidden relative min-w-[160px] md:min-w-[300px] -translate-y-10">
                 <Image
