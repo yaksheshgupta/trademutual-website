@@ -41,7 +41,7 @@ const TradeMutualUtilityItem = ({
           />
         )}
         <h1 className="font-semibold text-white sm:text-2xl">{heading}</h1>
-        <span className="mt-2 text-sm sm:!text-lg font-light text-white  text-opacity-60">
+        <span className="mt-2 text-sm sm:!text-lg font-light text-white whitespace-pre-line  text-opacity-60">
           {label}
         </span>
       </div>

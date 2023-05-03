@@ -18,7 +18,7 @@ const TradeMutualUtilitySection = () => {
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
             TRAM is the ERC20 utility token of Trade Mutual with a total supply
-            of 108 million tokens. The following token utilities are designed to 
+            of 108 million tokens. The following token utilities are designed to
             promote sustainable TRAM price appreciation
           </span>
         </div>
@@ -31,7 +31,7 @@ const TradeMutualUtilitySection = () => {
           >
             More About TRAM
           </Link>
-        </div> 
+        </div>
         <div className="relative hidden lg:block lg:scale-[0.7] 2xl:scale-100">
           <Image
             src={utilityLogo}
@@ -64,9 +64,9 @@ const TradeMutualUtilitySection = () => {
             />
           </div>
 
-          <div className="absolute -bottom-14 right-0 -translate-x-[50%]">
+          <div className="absolute -bottom-14 right-0 -translate-x-[45%]">
             <TradeMutualUtilityItem
-              className="rounded-tr-[35px] rounded-br-[35px]"
+              className="rounded-tr-[35px] rounded-br-[35px] lg:max-w-[425px]"
               heading="Liquidity Provider Rewards"
               label="DEX liquidity providers receive rewards in TRAM tokens"
             />
