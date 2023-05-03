@@ -30,7 +30,7 @@ const HeroSection = () => {
             <HeroSectionLabelItem label="Exclusive benefits for Investors Club members" />
           </div>
 
-          <div className="absolute top-0 max-w-[50%]  left-0 bottom-0 pl-10 xl:pl-[100px] 2xl:pl-[116px] flex items-center scale-[0.7] xl:scale-90 2xl:scale-100">
+          <div className="absolute top-0 max-w-[50%] max-h-screen left-0 bottom-0 pl-10 xl:pl-[100px] 2xl:pl-[116px] flex items-center scale-[0.7] xl:scale-90 2xl:scale-100">
             <div className="flex flex-col justify-center ">
               <div className="text-[60px] text-white font-bold">
                 Discover the Benefits of
@@ -49,8 +49,8 @@ const HeroSection = () => {
                   bluechip crypto on your behalf and generate profits.
                 </span>
               </div>
-              <Link href="/airdrop" className="max-w-fit">
-                <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] l max-w-fit mt-[64px]">
+              <Link href="/airdrop" className="max-w-fit max-h-fit mt-[64px]">
+                <button className="py-4 px-14 text-[22px] rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit ">
                   Join Airdrop
                 </button>
               </Link>
