@@ -89,17 +89,17 @@ const TradeMutualUtilitySection = () => {
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
-            heading="Investor Club Access:"
+            heading="Investor Club Access"
             label="Investors holding 108K+ TRAM tokens get access to the investor club"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
-            heading="Community Rewards:"
+            heading="Community Rewards"
             label="TRAM holders participate in community events and earn rewards"
           />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
-            heading="Liquidity Provider Rewards:"
+            heading="Liquidity Provider Rewards"
             label="DEX liquidity providers receive rewards in TRAM tokens"
           />
           <TradeMutualUtilityItem

@@ -16,7 +16,7 @@ interface IProps extends AccordionItemProps {
 
 const FAQs = [
   {
-    qs: "What is unique about Trade Mutual?",
+    qs: "What is unique about TradeMutual?",
     ans: (
       <span>
         TradeMutual value proposition is unique as it makes crypto trading as

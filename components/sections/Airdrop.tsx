@@ -5,7 +5,8 @@ import Image from "next/image";
 import AirdropBG from "../../public/images/Airdrop.webp";
 import Icon01 from "../../public/images/01.svg";
 const PHASE1_DESC =
-  "This airdrop will happen before TRAM private sale to reward the early members of the communityThis airdrop will happen before TRAM private sale to reward the early members of the community";
+  "The upcoming Phase1 airdrop will take place prior to the TRAM private sale, and it will reward early TradeMutual community members ";
+const PHASE1_ELEGIBILITY="-Register for the Airdrop. To increase your chances of whitelisting -a. Actively participate in TradeMutual's social media channels - b. Share and promote TradeMutual's content on social media";
 const Airdrop = () => {
   return (
     <section
@@ -19,15 +20,19 @@ const Airdrop = () => {
         <div className="relative flex justify-between w-full h-full min-h-[700px] ">
           <div className="flex flex-col  justify-center xl:w-[70%] px-5 lg:pl-[150px] items-start 2xl:pl-0">
             <h1 className="text-[24px] sm:text-[50px] 2xl:text-[60px] text-white font-semibold">
-              AirDrop
+              Airdrop
             </h1>
             <div className="flex">
               <span className="text-white text-md md:text-xl lg:leading-7 font-extralight text-opacity-60">
-                TradeMutual will airdrop TRAM tokens to its community members
-                in three phases. Each phase will benefit a specific section of
-                the community.TradeMutual will airdrop TRAM tokens to its
-                community members in three phases. Each phase will benefit a
-                specific section of the community.
+                {/* TradeMutual will airdrop TRAM tokens to its community members in three phases.
+                Each phase will reward a specific section of the community.
+                <br/>
+                Registration is now open for the first phase of the airdrop. */}
+                TradeMutual will airdrop TRAM tokens to its community members in three phases,
+                where each phase will reward a specific section of the community.
+                The registration process for the first phase of the airdrop is now open.
+                <br/>
+                Don't miss out on this opportunity to be a part of our community and earn rewards!
               </span>
               <div className="xl:hidden relative min-w-[160px] md:min-w-[300px] -translate-y-10">
                 <Image
@@ -46,7 +51,7 @@ const Airdrop = () => {
                     heading="Phase 1"
                     label={PHASE1_DESC}
                     showIcon={false}
-                    className="lg:max-w-[450px] rounded-br-[50px] "
+                    className="lg:max-w-[450px] rounded-br-[50px]"
                   />
                   <div className="absolute max-w-[88px] md:scale-[1.4] bottom-0 right-5">
                     <Image className="select-none" draggable={false} src={Icon01} alt="Phase 1 Icon" />
@@ -55,10 +60,10 @@ const Airdrop = () => {
 
                 <TradeMutualUtilityItem
                   heading="Eligibility"
-                  label={PHASE1_DESC}
+                  label={PHASE1_ELEGIBILITY}
                   showIcon={false}
                   borderWidth={0.5}
-                  className="lg:max-w-[450px] rounded-br-[35px] from-[rgba(255,255,255,0.3)] "
+                  className="lg:max-w-[450px] rounded-br-[35px] from-[rgb(255,255,255)] "
                 />
               </div>
 

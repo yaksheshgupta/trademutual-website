@@ -8,6 +8,7 @@ import Icon1 from "../public/images/Icon1.svg";
 import Icon2 from "../public/images/Icon2.svg";
 import Icon3 from "../public/images/Icon3.svg";
 import Icon4 from "../public/images/Icon4.svg";
+import Icon5 from "../public/images/Icon5.svg";
 import { LINKS } from "@/utils/config";
 import Link from "next/link";
 const socials = [
@@ -31,11 +32,11 @@ const socials = [
     type: "discord",
     link: "https://discord.com/invite/vEusPkXx",
   },
-  // {
-  //   icon: Icon4,
-  //   type: "Github",
-  //   link: "https://github.com/trademutual-org",
-  // },
+  {
+    icon: Icon5,
+    type: "Github",
+    link: "https://github.com/trademutual-org",
+  },
 ];
 const Footer = () => {
   return (
@@ -94,12 +95,12 @@ const Footer = () => {
             <Link href="/#how-it-works" scroll={false}>
               How it works
             </Link>
-            <a href={LINKS.LITE_PAPER} target="_blank">
+            <Link href={LINKS.LITE_PAPER} target="_blank">
               Litepaper
-            </a>
-            <a href={LINKS.ROADMAP} target="_blank">
+            </Link>
+            <Link href={LINKS.ROADMAP} target="_blank">
               Roadmap
-            </a>
+            </Link>
           </div>
           <span className="mt-8 text-xs text-white text-opacity-50 sm:text-sm">
             © TradeMutual 2023 All rights reserved.

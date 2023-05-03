@@ -2,6 +2,7 @@ import Icon1 from "../public/images/Icon1.svg";
 import Icon2 from "../public/images/Icon2.svg";
 import Icon3 from "../public/images/Icon3.svg";
 import Icon4 from "../public/images/Icon4.svg";
+import Icon5 from "../public/images/Icon5.svg";
 import Image from "next/image";
 import Link from "next/link";
 const socials = [
@@ -24,6 +25,11 @@ const socials = [
     icon: Icon4,
     type: "discord",
     link: "https://discord.com/invite/rVYhWDDy6B",
+  },
+  {
+    icon: Icon5,
+    type: "Github",
+    link: "https://github.com/trademutual-org",
   },
 ];
 const FixedScrollBar = () => {

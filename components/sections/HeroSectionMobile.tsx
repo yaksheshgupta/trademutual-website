@@ -21,7 +21,7 @@ const heroPoints = [
     bgColor: "#E24FCD",
   },
   {
-    label: "Join investor club for exclusive benefits and market insights",
+    label: "Exclusive benefits for Investors Club members",
     bgColor: "#56C6FE",
   },
 ];
