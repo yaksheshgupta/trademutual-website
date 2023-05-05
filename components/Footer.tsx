@@ -30,7 +30,7 @@ const socials = [
   {
     icon: Icon4,
     type: "discord",
-    link: "https://discord.com/invite/vEusPkXx",
+    link: "https://discord.gg/rVYhWDDy6B",
   },
   {
     icon: Icon5,
