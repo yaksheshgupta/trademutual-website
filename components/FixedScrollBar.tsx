@@ -1,3 +1,4 @@
+import { SOCIAL_LINKS } from "@/utils/config";
 import Icon1 from "../public/images/Icon1.svg";
 import Icon2 from "../public/images/Icon2.svg";
 import Icon3 from "../public/images/Icon3.svg";
@@ -9,27 +10,27 @@ const socials = [
   {
     icon: Icon1,
     type: "medium",
-    link: "https://medium.com/@trademutualorg",
+    link: SOCIAL_LINKS.MEDIUM,
   },
   {
     icon: Icon2,
     type: "telegram",
-    link: "https://t.me/TradeMutual_Community",
+    link: SOCIAL_LINKS.TELEGRAM,
   },
   {
     icon: Icon3,
     type: "twitter",
-    link: "https://twitter.com/TradeMutual",
+    link: SOCIAL_LINKS.TWITTER,
   },
   {
     icon: Icon4,
     type: "discord",
-    link: "https://discord.com/invite/rVYhWDDy6B",
+    link: SOCIAL_LINKS.DISCORD,
   },
   {
     icon: Icon5,
     type: "Github",
-    link: "https://github.com/trademutual-org",
+    link: SOCIAL_LINKS.GITHUB,
   },
 ];
 const FixedScrollBar = () => {
