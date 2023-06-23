@@ -101,6 +101,9 @@ const Footer = () => {
             <Link href={LINKS.ROADMAP} target="_blank">
               Roadmap
             </Link>
+            <Link href="/about" scroll={false}>
+              About
+            </Link>
           </div>
           <span className="mt-8 text-xs text-white text-opacity-50 sm:text-sm">
             © TradeMutual 2023 All rights reserved.

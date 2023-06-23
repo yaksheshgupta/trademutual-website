@@ -8,7 +8,7 @@ const PHASE1_DESC =
   "The upcoming Phase1 airdrop will take place prior to the TRAM private sale, and it will reward early TradeMutual community members ";
 const PHASE1_ELEGIBILITY =
   "Register for the Airdrop. \n To increase your chances of whitelisting - \n a. Actively participate in TradeMutual's social media channels \n b. Share and promote TradeMutual's content on social media";
-const Airdrop = () => {
+const AirdropSection = () => {
   return (
     <section
       id="airdrop"
@@ -106,4 +106,4 @@ const Airdrop = () => {
   );
 };
 
-export default Airdrop;
+export default AirdropSection;

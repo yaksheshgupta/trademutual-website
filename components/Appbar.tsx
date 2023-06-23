@@ -51,8 +51,8 @@ const Appbar = () => {
         <Link href="/#tokeonomics" scroll={false}>
           Tokenomics
         </Link>
-        <Link href="/#faq" scroll={false}>
-          FAQ
+        <Link href="/about" scroll={false}>
+          About
         </Link>
         <Link rel="canonical" href={LINKS.LITE_PAPER} target="_blank">
           Litepaper
@@ -101,8 +101,8 @@ const Appbar = () => {
             Tokenomics
           </Link>
 
-          <Link href="#faq" scroll={false} onClick={() => setAppBarOpen(false)}>
-            FAQ
+          <Link href="/about" scroll={false} onClick={() => setAppBarOpen(false)}>
+            About
           </Link>
           <Link
             rel="canonical"
