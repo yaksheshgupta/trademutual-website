@@ -13,4 +13,5 @@ export const SOCIAL_LINKS={
   TELEGRAM:"https://t.me/TradeMutual_Community",
   MEDIUM:"https://medium.com/@trademutualorg",
   GITHUB:"https://github.com/trademutual-org",
+  LINKEDIN:"https://www.linkedin.com/company/trademutual/",
 }

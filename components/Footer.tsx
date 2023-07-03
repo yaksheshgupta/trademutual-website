@@ -9,6 +9,7 @@ import Icon2 from "../public/images/Icon2.svg";
 import Icon3 from "../public/images/Icon3.svg";
 import Icon4 from "../public/images/Icon4.svg";
 import Icon5 from "../public/images/Icon5.svg";
+import Icon6 from "../public/images/Icon6.svg";
 import { LINKS,SOCIAL_LINKS } from "@/utils/config";
 import Link from "next/link";
 const socials = [
@@ -36,6 +37,11 @@ const socials = [
     icon: Icon5,
     type: "Github",
     link: SOCIAL_LINKS.GITHUB,
+  },
+  {
+    icon: Icon6,
+    type: "LinkedIn",
+    link: SOCIAL_LINKS.LINKEDIN,
   },
 ];
 const Footer = () => {
