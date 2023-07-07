@@ -32,7 +32,7 @@ const AboutSection = () => {
             role: 'Co-Founder',
             description: 'Ex-CEO @ Apple Ex-CEO @ Google Ex-CEO @ Netfix Ex-CEO @ Samsung.',
             image: yakshesh,
-            linkedin: 'www.linkedin.com/in/yaksheshg',
+            linkedin: 'https://www.linkedin.com/in/yaksheshg',
             twitter: 'https://twitter.com/GuptaYakshesh',
         },
     ];
