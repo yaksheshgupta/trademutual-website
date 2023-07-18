@@ -15,7 +15,7 @@ const AboutSection = () => {
             description: 'Ex-CEO @ Apple Ex-CEO @ Google Ex-CEO @ Netfix Ex-CEO @ Samsung.',
             image: prakash,
             linkedin: 'https://www.linkedin.com/in/prakash-kumar-50321a2/',
-            twitter: 'https://www.twitter.com/',
+            twitter: 'https://twitter.com/PrakashkrKR',
         },
         {
             index: 2,
