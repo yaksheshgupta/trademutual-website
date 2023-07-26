@@ -4,6 +4,7 @@ import logo from "../public/images/TMLogo.svg";
 import Drawer from "./Drawer";
 import { LINKS } from "@/utils/config";
 import Link from "next/link";
+
 const HamburgerIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +115,7 @@ const Appbar = () => {
           </Link>
           {/* <a href={LINKS.LITE_PAPER} onClick={() => setAppBarOpen(false)}>
             Airdrop
-          </a> */}
+          </a>*/}
           <Link rel="canonical" href="/airdrop" aria-label="Apply for airdrop">
             <button className="py-2 px-8 mr-4 text-base  rounded-xl bg-gradient-to-r text-white from-[#29FAFE] via-[#DA2CFE] to-[#F7B53B] rounded-br-[50px] max-w-fit lg:ml-7">
               Join Airdrop
@@ -129,5 +130,4 @@ const Appbar = () => {
     </nav>
   );
 };
-
 export default Appbar;
