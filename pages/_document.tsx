@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <link rel="icon" href="/TMIcon.webp" />
+        <link rel="icon" href="/images/TMIcon.webp" />
       </Head>
       <body id="body" className="bg-[#1D1B29]">
         <Main />
