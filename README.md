@@ -1,4 +1,4 @@
-# TradeMutual Website
+## TradeMutual Website
 
 Welcome to the TradeMutual Website repository. This repository contains the source code for TradeMutual's website built using Next.js. 
 
