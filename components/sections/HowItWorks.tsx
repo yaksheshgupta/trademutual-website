@@ -1,6 +1,6 @@
 import Image from "next/image";
-import tradeCrypto from "../../public/images/tradeCryptoIcon.svg";
 import depositStableCoinIcon from "../../public/images/depositStableCoinIcon.svg";
+import tradeCrypto from "../../public/images/tradeCryptoIcon.svg";
 import earnProfitIcon from "../../public/images/earnProfitIcon.svg";
 import howItWorksSVG from "../../public/images/Frame684912.svg";
 import GradientBox from "../GradientBox";
