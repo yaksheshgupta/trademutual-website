@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Appbar from "@/components/Appbar";
 import FixedScrollBar from "@/components/FixedScrollBar";
 import HeroSectionMobile from "@/components/sections/HeroSectionMobile";
+import FundSection from "@/components/sections/FundSection";
 import Head from "next/head";
 const sora = Sora({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
       <FixedScrollBar />
       <HeroSection />
       <HeroSectionMobile />
+      <FundSection />
       <HowItWorks />
       <TradeMutualUtilitySection />
       <FAQSection />

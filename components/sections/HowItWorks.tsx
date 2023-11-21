@@ -8,15 +8,15 @@ const HowItWorks = () => {
   const howItWorks = [
     {
       icon: depositStableCoinIcon,
-      label: "Deposit stablecoin on TradeMutual with just one transaction",
+      label: "Retail investors deposit stablecoin in early stage fund",
     },
     {
       icon: tradeCrypto,
-      label: "Our experts trade bluechip crypto on behalf of investors and distribute profits",
+      label: "Our experts invest pooled funds in promising early stage projects",
     },
     {
       icon: earnProfitIcon,
-      label: "Investors can withdraw their funds at any time ",
+      label: "We declare results quarterly and deposits profits into our investors wallets",
     },
   ];
   return (

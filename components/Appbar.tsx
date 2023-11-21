@@ -45,7 +45,7 @@ const Appbar = () => {
       <Link rel="canonical" href="/">
         <Image draggable={false} className="select-none" unoptimized src={logo} alt="TM Logo" height={33} width={180} />
       </Link>
-      <div className="hidden ml-auto text-sm font-normal text-white text-opacity-50 lg:flex space-x-7">
+      <div className="hidden ml-auto text-[17px] font-normal text-white text-opacity-50 lg:flex space-x-7">
         <Link href="/#how-it-works" scroll={false}>
           How it works
         </Link>

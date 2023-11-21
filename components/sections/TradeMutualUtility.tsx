@@ -13,13 +13,12 @@ const TradeMutualUtilitySection = () => {
       <GradientBox />
       <div className="w-full max-w-[1440px] mx-auto lg:grid lg:place-items-center px-6 lg:px-0 mt-2">
         <h1 className="text-[30px] lg:text-[60px] font-semibold  text-white">
-          Trade Mutual Token Utility
+          $TRAM Token Utility
         </h1>
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
-            TRAM is the ERC20 utility token of Trade Mutual with a total supply
-            of 108 million tokens. The following token utilities are designed to
-            promote sustainable TRAM price appreciation
+            TRAM is TradeMutual's utility token with a total supply of {/* ----Underline */} 11 million.
+            Token utilities are designed to promote sustainable TRAM price appreciation
           </span>
         </div>
         <div className="mt-6 lg:mt-16">
@@ -45,14 +44,14 @@ const TradeMutualUtilitySection = () => {
             <TradeMutualUtilityItem
               className="rounded-tr-[35px] "
               heading="Profit Sharing"
-              label="TRAM holders will receive 20% of the profits generated (paid in stablecoin)"
+              label="TRAM holders will receive 15% of the profits from investing"
             />
           </div>
           <div className="absolute top-10 -right-1/4">
             <TradeMutualUtilityItem
               className="rounded-br-[35px]"
               heading="Investor Club Access"
-              label="Investors holding 108K+ TRAM tokens get access to the investor club"
+              label="Investors holding 5K+ TRAM tokens get access to the investor club"
             />
           </div>
 
@@ -60,15 +59,15 @@ const TradeMutualUtilitySection = () => {
             <TradeMutualUtilityItem
               className="rounded-tr-[35px]"
               heading="Community Rewards"
-              label="TRAM holders participate in community events and earn rewards"
-            />
+              label="Active participation in comunity events and dao proposals "
+              />
           </div>
 
           <div className="absolute -bottom-14 right-0 -translate-x-[45%]">
             <TradeMutualUtilityItem
               className="rounded-tr-[35px] rounded-br-[35px] lg:max-w-[425px]"
               heading="Liquidity Provider Rewards"
-              label="DEX liquidity providers receive rewards in TRAM tokens"
+              label="Early stablecoin depositors will be rewarded in TRAM tokens"
             />
           </div>
 
@@ -85,23 +84,23 @@ const TradeMutualUtilitySection = () => {
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Profit Sharing"
-            label="TRAM holders will receive 20% of the profits generated (paid in stablecoin)"
-          />
+            label="TRAM holders will receive 15% of the profits from investing"
+            />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Investor Club Access"
-            label="Investors holding 108K+ TRAM tokens get access to the investor club"
-          />
+            label="Investors holding 5K+ TRAM tokens get access to the investor club"
+            />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Community Rewards"
-            label="TRAM holders participate in community events and earn rewards"
-          />
+            label="Active participation in comunity events and dao proposals "
+            />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Liquidity Provider Rewards"
-            label="DEX liquidity providers receive rewards in TRAM tokens"
-          />
+            label="Early stablecoin depositors will be rewarded in TRAM tokens"
+            />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Governance"
