@@ -17,7 +17,7 @@ const TradeMutualUtilitySection = () => {
         </h1>
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
-            TRAM is TradeMutual's utility token with a total supply of {/* ----Underline */} 11 million.
+            TRAM is TradeMutual{"'"}s utility token with a total supply of <u>11 million</u>.
             Token utilities are designed to promote sustainable TRAM price appreciation
           </span>
         </div>
