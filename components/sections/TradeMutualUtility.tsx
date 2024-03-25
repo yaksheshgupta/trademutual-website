@@ -17,8 +17,9 @@ const TradeMutualUtilitySection = () => {
         </h1>
         <div className="max-w-[618px] lg:text-center">
           <span className="text-sm font-light text-white lg:text-lg text-opacity-60">
-            TRAM is TradeMutual{"'"}s utility token with a total supply of <u>11 million</u>.
-            Token utilities are designed to promote sustainable TRAM price appreciation
+            $TRAM is the ERC20 utility token of TradeMutual platform and it has a maximum supply of <u>11 million tokens</u>. 
+            Following token utilities promote the growth of the platform
+            and a sustainable TRAM price appreciation
           </span>
         </div>
         <div className="mt-6 lg:mt-16">
@@ -44,14 +45,16 @@ const TradeMutualUtilitySection = () => {
             <TradeMutualUtilityItem
               className="rounded-tr-[35px] "
               heading="Profit Sharing"
-              label="TRAM holders will receive 15% of the profits from investing"
+              label="Individuals locking $TRAM tokens will receive a 15% share of the profits, proportional to the quantity they have locked."
+              // label="Lock tram tokens to earn 15% profits based on the locked amount." {/* PRAKASH-  choose*/}
             />
           </div>
           <div className="absolute top-10 -right-1/4">
             <TradeMutualUtilityItem
               className="rounded-br-[35px]"
               heading="Investor Club Access"
-              label="Investors holding 5K+ TRAM tokens get access to the investor club"
+              label="Investors locking 5K TRAM or more get access to exclusive invite only investor club"
+              // {/* PRAKASH-  invite only*/}
             />
           </div>
 
@@ -59,15 +62,16 @@ const TradeMutualUtilitySection = () => {
             <TradeMutualUtilityItem
               className="rounded-tr-[35px]"
               heading="Community Rewards"
-              label="Active participation in comunity events and dao proposals "
-              />
+              label="Active participation in comunity events"
+              // {/* PRAKASH-  DAO proposals or no changes req.*/}
+            />
           </div>
 
           <div className="absolute -bottom-14 right-0 -translate-x-[45%]">
             <TradeMutualUtilityItem
               className="rounded-tr-[35px] rounded-br-[35px] lg:max-w-[425px]"
               heading="Liquidity Provider Rewards"
-              label="Early stablecoin depositors will be rewarded in TRAM tokens"
+              label="Liquidity providers earn reward in TRAM tokens."
             />
           </div>
 
@@ -84,22 +88,25 @@ const TradeMutualUtilitySection = () => {
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Profit Sharing"
-            label="TRAM holders will receive 15% of the profits from investing"
-            />
+            label="Individuals locking $TRAM tokens will receive a 15% share of the profits, proportional to the quantity they have locked."
+              // label="Lock tram tokens to earn 15% profits based on the locked amount." {/* PRAKASH-  choose*/}
+          />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Investor Club Access"
-            label="Investors holding 5K+ TRAM tokens get access to the investor club"
-            />
+            label="Investors locking 5K TRAM or more get access to exclusive invite only investor club"
+              // {/* PRAKASH-  invite only*/}
+          />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Community Rewards"
-            label="Active participation in comunity events and dao proposals "
-            />
+            label="Active participation in comunity events"
+            // {/* PRAKASH-  DAO proposals or no changes req.*/}
+          />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"
             heading="Liquidity Provider Rewards"
-            label="Early stablecoin depositors will be rewarded in TRAM tokens"
+            label="Liquidity providers earn reward in TRAM tokens."
             />
           <TradeMutualUtilityItem
             className="rounded-tr-[35px]"

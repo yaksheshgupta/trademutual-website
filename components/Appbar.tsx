@@ -52,7 +52,7 @@ const Appbar = () => {
         <Link href="/#tokeonomics" scroll={false}>
           Tokenomics
         </Link>
-        <Link href="/about" scroll={false}>
+        <Link href="/" scroll={false}>
           About
         </Link>
         <Link rel="canonical" href={LINKS.LITE_PAPER} target="_blank">
@@ -102,7 +102,7 @@ const Appbar = () => {
             Tokenomics
           </Link>
 
-          <Link href="/about" scroll={false} onClick={() => setAppBarOpen(false)}>
+          <Link href="/" scroll={false} onClick={() => setAppBarOpen(false)}>
             About
           </Link>
           <Link
