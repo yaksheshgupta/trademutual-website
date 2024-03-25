@@ -18,13 +18,13 @@ const HeroSection = () => {
           />
           <div className="absolute inset-0"></div>
           <div className="absolute left-[76.5%] top-[11%] max-w-[280px] 2xl:left-[79%] 2xl:top-[12.5%] xl:left-[78%] xl:top-[12.5%] ">
-            <HeroSectionLabelItem label="Invest early in promising projects for best gains" />
+            <HeroSectionLabelItem label="Invest with ease in promising projects" />
           </div>
           <div className="absolute 2xl:left-[74.5%] 2xl:top-[28.5%] xl:left-[73.5%] xl:top-[28%] max-w-[280px] left-[72%] top-[27%]">
-            <HeroSectionLabelItem label="Earn without worrying about what to buy and when to sell" />
+            <HeroSectionLabelItem label="Invest in early stages such as private sale, IDO for high gains" />
           </div>
           <div className="absolute 2xl:left-[71%] 2xl:top-[58.5%] xl:left-[69.5%] xl:top-[58.5%] left-[68%] top-[57%] max-w-[280px]">
-            <HeroSectionLabelItem label="Strong tokenomics for sustainable growth" />
+            <HeroSectionLabelItem label="Strong tokenomics for sustainable growth" /> {/* PRAKASH- USE TRAM */}
           </div>
           <div className="absolute left-[76%] top-[81%] xl:left-[77.5%] xl:top-[82%] 2xl:left-[78.5%] 2xl:top-[81%] max-w-[280px]">
             <HeroSectionLabelItem label="Exclusive benefits for Investors Club members" />
@@ -36,16 +36,16 @@ const HeroSection = () => {
                 Discover the benefits of
               </div>
               <div className="text-[60px] text-white font-bold">
-                crypto investing
+                investing in early stage projects
               </div>
               <div className="text-[60px] text-white font-bold">
                 with TradeMutual
               </div>
               <div className="max-w-[525px] mt-8">
                 <span className="text-[22px] text-opacity-60 text-white leading-[42px] font-light">
-                  TradeMutual simplifies crypto investing-
-                  <br />
-                  deposit stablecoins in the early stage fund and our experts invest in promising early stage projects
+                  {/* <br /> */}
+                  With TradeMutual anyone can invest early in promising crypto projects.
+                  You desposit stablecoin on TradeMutual and we invest on your behalf
                 </span>
               </div>
               <Link href="/airdrop" className="max-w-fit max-h-fit mt-[64px]">

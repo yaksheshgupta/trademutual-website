@@ -5,20 +5,25 @@ import earnProfitIcon from "../../public/images/earnProfitIcon.svg";
 import howItWorksSVG from "../../public/images/Frame684912.svg";
 import GradientBox from "../GradientBox";
 const HowItWorks = () => {
+  {/* PRAKASH- USE (USDT/USDC) 
+    2. experts
+    3. Whole
+*/}
   const howItWorks = [
     {
       icon: depositStableCoinIcon,
-      label: "Retail investors deposit stablecoin in early stage fund",
+      label: "Investors deposit stablecoins (USDT/USDC) on TradeMutual",
     },
-    {
+    { 
       icon: tradeCrypto,
-      label: "Our experts invest pooled funds in promising early stage projects",
+      label: "TradeMutual's experts invests pooled funds in early stage projects",
     },
     {
       icon: earnProfitIcon,
-      label: "We declare results quarterly and deposits profits into our investors wallets",
+      // label: "TradeMutual shares profits with investors based on their investment amount and project performance",
+      label: "Users can redeem their share of profits based on their investment amount and duration",
     },
-  ];
+  ]; 
   return (
     <section
       id="how-it-works"
