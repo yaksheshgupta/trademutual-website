@@ -14,6 +14,7 @@ interface IProps extends AccordionItemProps {
   headerContent: string;
 }
 
+
 const FAQs = [
   {
     qs: "What is unique about TradeMutual?",
